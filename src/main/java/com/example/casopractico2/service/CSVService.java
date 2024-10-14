@@ -17,9 +17,13 @@ public class CSVService {
     public CompletableFuture<List<BiologicalSample>> importCSVAsync(String filePath) {
         List<BiologicalSample> samples = new ArrayList<>();
         String line;
+
+        System.out.println("Thread started: " + Thread.currentThread().getName());
+
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
+
                 BiologicalSample sample = new BiologicalSample();
                 sample.setSampleId(Integer.parseInt(values[0]));
                 sample.setSpecies(values[1]);
@@ -28,11 +32,18 @@ public class CSVService {
                 sample.setAge(Integer.parseInt(values[4]));
                 sample.setGender(values[5]);
                 sample.setLocation(values[6]);
+
                 samples.add(sample);
+
+                // Log para ver el progreso del hilo
+                System.out.println("Processed Sample ID: " + sample.getSampleId() + " on Thread: " + Thread.currentThread().getName());
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        System.out.println("Thread finished: " + Thread.currentThread().getName());
+
         return CompletableFuture.completedFuture(samples);
     }
 }
