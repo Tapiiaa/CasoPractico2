@@ -1,0 +1,11 @@
+Sample_ID,Species,Weight_kg,Height_cm,Age_years,Gender,Location
+1,Homo sapiens,70.5,175,30,Male,North America
+2,Pan troglodytes,45.3,120,12,Female,Africa
+3,Canis lupus,35.8,60,5,Male,Europe
+4,Felis catus,4.5,25,3,Female,Europe
+5,Gorilla gorilla,160.2,165,20,Male,Africa
+6,Homo sapiens,60.7,160,25,Female,Asia
+7,Pan troglodytes,52.1,130,14,Female,Africa
+8,Canis lupus,40.3,70,8,Male,North America
+9,Felis catus,3.9,23,4,Female,Asia
+10,Gorilla gorilla,155.0,170,18,Male,Africa
