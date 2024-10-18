@@ -1,22 +1,17 @@
 package com.example.casopractico2.config;
 
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
-import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @Configuration
 public class ThreadConfig {
 
-    @Bean(name = "customTaskExecutor")
-    public Executor taskExecutor() {
-        ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(3);
-        executor.setMaxPoolSize(5);
-        executor.setQueueCapacity(100);
-        executor.setThreadNamePrefix("BiologicalDataThread-");
-        executor.initialize();
-        return executor;
+    @Bean(name = "customExecutorService")  // Cambiamos el nombre para evitar conflicto
+    public ExecutorService taskExecutor() {
+        return Executors.newFixedThreadPool(5);  // Pool de hilos fijo
     }
 }
