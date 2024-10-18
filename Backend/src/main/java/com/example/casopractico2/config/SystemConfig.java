@@ -5,7 +5,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 
+import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.logging.Logger;
 
@@ -29,4 +31,25 @@ public class SystemConfig implements AsyncConfigurer {
         return (ThreadPoolExecutor) Executors.newFixedThreadPool(corePoolSize);
     }
 
+    //Metodo para manejar tareas que puedan dividirse en subtareas para ser ejecutadas en paralelo.
+    @Bean(name = "forkJoinPool")
+    public ForkJoinPool forkJoinPool(){
+        int parallelism = Runtime.getRuntime().availableProcessors();  //Definimos el número de hilos disponibles a usar.
+        logger.info("Inicializando el pool de hilos con " + parallelism + " hilos");
+        return new ForkJoinPool(parallelism); //Inicializa el pool de hilos con el número de hilos disponibles.
+    }
+
+    //Configuracion del Executor para tareas asincronas
+    @Override
+    @Bean(name = "asyncExecutor")
+    public Executor getAsyncExecutor() {
+        logger.info("Inicializando el pool de hilos para tareas asincronas");
+        return threadPoolExecutor();
+    }
+
+    @Bean(name = "alertExecutor")
+    public Executor alertExecutor() {
+        logger.info("Inicializando el pool de hilos para alertas");
+        return threadPoolExecutor();
+    }
 }
