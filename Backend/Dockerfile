@@ -1,0 +1,17 @@
+# Usa una imagen base de OpenJDK 11
+FROM openjdk:11-jre-slim
+
+# Especifica el autor del Dockerfile
+LABEL authors="patrik"
+
+# Establece el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copia el archivo JAR generado en el directorio actual a la carpeta del contenedor
+COPY target/backend-*.jar app.jar
+
+# Expone el puerto en el que correrá la aplicación Spring Boot
+EXPOSE 8080
+
+# Comando para ejecutar la aplicación cuando el contenedor se inicie
+ENTRYPOINT ["java", "-jar", "app.jar"]
