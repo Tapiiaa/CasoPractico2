@@ -21,9 +21,13 @@ public class CSVService {
         System.out.println("Thread started: " + Thread.currentThread().getName());
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            // Saltar la cabecera si existe
+            br.readLine();
+
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
 
+                // Crear un nuevo objeto de muestra biológica
                 BiologicalSample sample = new BiologicalSample();
                 sample.setSampleId(Integer.parseInt(values[0]));
                 sample.setSpecies(values[1]);

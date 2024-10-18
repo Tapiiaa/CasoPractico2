@@ -1,62 +1,51 @@
 package com.example.casopractico2.service;
 
+import com.example.casopractico2.model.BiologicalSample;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.CountDownLatch;
 
 @Service
 public class DataProcessingService {
 
     private final ExecutorService executorService;
     private final Semaphore semaphore = new Semaphore(3);  // Limitar a 3 hilos simultáneamente
-    private final int totalTasks = 10;  // Número total de tareas
+    private final CSVService csvService;  // Servicio para leer el CSV
 
-    public DataProcessingService(ExecutorService executorService) {
+    public DataProcessingService(ExecutorService executorService, CSVService csvService) {
         this.executorService = executorService;
+        this.csvService = csvService;
     }
 
-    public void processBiologicalDataWithSemaphore() {
-        CountDownLatch latch = new CountDownLatch(totalTasks);  // Sincronización con CountDownLatch
-        long startTime = System.currentTimeMillis();  // Tiempo inicial para todo el procesamiento
+    public void processBiologicalDataWithSemaphore(String filePath) {
+        // Leer los datos del CSV
+        List<BiologicalSample> samples = csvService.importCSVAsync(filePath).join();  // Esperamos que termine la tarea asíncrona
 
-        for (int i = 0; i < totalTasks; i++) {
-            int taskId = i;
+        for (BiologicalSample sample : samples) {
             executorService.submit(() -> {
-                long taskStartTime = System.currentTimeMillis();  // Tiempo inicial para cada tarea
+                long startTime = System.currentTimeMillis();  // Tiempo inicial
                 try {
                     semaphore.acquire();  // Solicita permiso para acceder
-                    System.out.println("Processing task " + taskId + " on thread " + Thread.currentThread().getName());
-                    processData();
+                    System.out.println("Processing Sample ID " + sample.getSampleId() + " on thread " + Thread.currentThread().getName());
+                    processSample(sample);  // Procesar la muestra
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 } finally {
                     semaphore.release();  // Libera el permiso al finalizar
-                    long taskEndTime = System.currentTimeMillis();  // Tiempo final para cada tarea
-                    System.out.println("Task " + taskId + " completed in " + (taskEndTime - taskStartTime) + " ms.");
-                    latch.countDown();  // Marca la tarea como completada
+                    long endTime = System.currentTimeMillis();  // Tiempo final
+                    System.out.println("Sample " + sample.getSampleId() + " completed in " + (endTime - startTime) + " ms.");
                 }
             });
         }
-
-        try {
-            latch.await();  // Esperar a que todas las tareas se completen
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-
-        long endTime = System.currentTimeMillis();  // Tiempo final para todo el procesamiento
-        long totalTime = endTime - startTime;
-        double tasksPerSecond = (double) totalTasks / (totalTime / 1000.0);
-
-        System.out.println("All tasks completed in " + totalTime + " ms.");
-        System.out.println("Processing rate: " + tasksPerSecond + " tasks per second.");
     }
 
-    private void processData() {
+    private void processSample(BiologicalSample sample) {
+        // Aquí podrías realizar el procesamiento real de la muestra, por ejemplo, análisis de datos
+        System.out.println("Processing biological sample: " + sample.toString());
         try {
-            Thread.sleep(1000);  // Simula procesamiento
+            Thread.sleep(1000);  // Simula tiempo de procesamiento
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
