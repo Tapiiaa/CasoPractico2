@@ -1,0 +1,1001 @@
+ID,Species,Height (m),Location Zone,Leaf Type,Flower Color,Growth Habit,Drought Resistance,Watering Frequency,Ideal Climatic Zone
+1,Rosa canina,15.29,Áreas rurales de Europa,Acicular,Violeta,Arbustivo,Baja,6,Templado
+2,Pinus sylvestris,38.05,Bosques boreales,Pinnada,Blanca,Arbóreo,Baja,3,Mediterráneo
+3,Lilium candidum,29.41,Altiplano Andino,Espinosa,Rosa,Trepador,Alta,5,Boreal
+4,Betula pendula,24.15,Áreas rurales de Europa,Palmeada,Amarilla,Herbáceo,Alta,2,Boreal
+5,Quercus robur,6.66,Bosques boreales,Acicular,Blanca,Trepador,Media,6,Templado
+6,Ficus carica,6.66,Sabana Africana,Ovalada,Violeta,Herbáceo,Media,4,Boreal
+7,Rosa canina,2.79,Zonas costeras del Mediterráneo,Palmeada,Blanca,Rastrero,Baja,0,Desértico
+8,Cactaceae echinopsis,34.71,Zonas costeras del Mediterráneo,Lobulada,Amarilla,Arbustivo,Alta,6,Templado
+9,Quercus robur,24.24,Selva Amazónica,Pinnada,Sin flor visible,Rastrero,Alta,4,Tropical
+10,Pinus sylvestris,28.47,Bosques boreales,Acicular,Rosa,Herbáceo,Media,5,Mediterráneo
+11,Rosa canina,1.31,Zonas montañosas,Palmeada,Rosa,Herbáceo,Baja,5,Mediterráneo
+12,Quercus robur,38.81,Sabana Africana,Acicular,Sin flor visible,Herbáceo,Baja,0,Mediterráneo
+13,Ficus carica,33.38,Desiertos de América Latina,Palmeada,Naranja,Arbóreo,Media,1,Desértico
+14,Cactaceae echinopsis,8.89,Áreas rurales de Europa,Ovalada,Amarilla,Arbustivo,Alta,0,Tropical
+15,Quercus robur,7.68,Sabana Africana,Lobulada,Rosa,Rastrero,Media,3,Templado
+16,Eucalyptus globulus,7.74,Bosques boreales,Lobulada,Amarilla,Rastrero,Media,6,Templado
+17,Cactaceae echinopsis,12.52,Áreas templadas de Asia,Espinosa,Violeta,Trepador,Media,2,Mediterráneo
+18,Pinus sylvestris,21.23,Áreas rurales de Europa,Palmeada,Amarilla,Herbáceo,Media,1,Tropical
+19,Ficus carica,17.56,Bosques de Europa,Acicular,Blanca,Herbáceo,Alta,0,Tropical
+20,Betula pendula,12.0,Zonas costeras del Mediterráneo,Lobulada,Sin flor visible,Herbáceo,Media,4,Tropical
+21,Salvia officinalis,24.67,Bosques boreales,Pinnada,Naranja,Rastrero,Alta,1,Boreal
+22,Salvia officinalis,6.01,Bosques de Europa,Lobulada,Amarilla,Trepador,Media,6,Boreal
+23,Salvia officinalis,12.04,Selva Amazónica,Lanceolada,Naranja,Arbóreo,Baja,1,Mediterráneo
+24,Rosa canina,14.97,Altiplano Andino,Lanceolada,Naranja,Arbustivo,Alta,6,Tropical
+25,Pinus sylvestris,18.51,Desiertos de América Latina,Lobulada,Violeta,Arbóreo,Baja,0,Tropical
+26,Ficus carica,31.51,Desiertos de América Latina,Palmeada,Roja,Rastrero,Media,6,Templado
+27,Cactaceae echinopsis,8.39,Bosques de Europa,Espinosa,Sin flor visible,Herbáceo,Media,1,Templado
+28,Rosa canina,20.81,Zonas costeras del Mediterráneo,Lobulada,Naranja,Arbustivo,Media,4,Mediterráneo
+29,Pinus sylvestris,23.9,Selva Amazónica,Ovalada,Rosa,Rastrero,Alta,5,Tropical
+30,Betula pendula,2.33,Áreas templadas de Asia,Acicular,Blanca,Rastrero,Baja,1,Mediterráneo
+31,Eucalyptus globulus,24.5,Zonas costeras del Mediterráneo,Espinosa,Rosa,Rastrero,Alta,6,Templado
+32,Ficus carica,7.24,Sabana Africana,Ovalada,Violeta,Arbustivo,Alta,5,Templado
+33,Salvia officinalis,3.07,Desiertos de América Latina,Espinosa,Violeta,Arbustivo,Media,6,Boreal
+34,Quercus robur,37.98,Sabana Africana,Ovalada,Rosa,Trepador,Baja,4,Mediterráneo
+35,Ficus carica,38.64,Áreas rurales de Europa,Acicular,Sin flor visible,Trepador,Media,6,Mediterráneo
+36,Populus alba,32.43,Zonas montañosas,Acicular,Rosa,Arbóreo,Alta,0,Tropical
+37,Pinus sylvestris,12.53,Bosques boreales,Lanceolada,Amarilla,Arbustivo,Media,2,Tropical
+38,Lilium candidum,4.36,Selva Amazónica,Palmeada,Rosa,Arbustivo,Baja,1,Boreal
+39,Betula pendula,27.53,Zonas costeras del Mediterráneo,Ovalada,Blanca,Arbustivo,Media,2,Desértico
+40,Eucalyptus globulus,17.89,Desiertos de América Latina,Lanceolada,Blanca,Trepador,Baja,6,Desértico
+41,Betula pendula,5.32,Sabana Africana,Ovalada,Roja,Rastrero,Baja,4,Desértico
+42,Ficus carica,20.06,Altiplano Andino,Lanceolada,Blanca,Herbáceo,Media,1,Mediterráneo
+43,Lilium candidum,1.86,Áreas rurales de Europa,Acicular,Rosa,Trepador,Alta,6,Mediterráneo
+44,Populus alba,36.42,Bosques boreales,Espinosa,Blanca,Arbustivo,Media,5,Templado
+45,Cactaceae echinopsis,10.72,Bosques boreales,Pinnada,Sin flor visible,Trepador,Alta,3,Mediterráneo
+46,Quercus robur,26.67,Zonas costeras del Mediterráneo,Lanceolada,Naranja,Arbóreo,Alta,6,Mediterráneo
+47,Lilium candidum,12.81,Selva Amazónica,Ovalada,Blanca,Arbustivo,Media,2,Mediterráneo
+48,Pinus sylvestris,21.04,Áreas templadas de Asia,Ovalada,Amarilla,Arbóreo,Alta,1,Boreal
+49,Salvia officinalis,22.1,Altiplano Andino,Pinnada,Sin flor visible,Arbustivo,Alta,2,Mediterráneo
+50,Populus alba,7.8,Zonas costeras del Mediterráneo,Palmeada,Roja,Trepador,Media,1,Tropical
+51,Quercus robur,38.8,Sabana Africana,Acicular,Amarilla,Rastrero,Media,6,Tropical
+52,Eucalyptus globulus,31.12,Zonas montañosas,Ovalada,Rosa,Herbáceo,Media,0,Templado
+53,Salvia officinalis,37.61,Bosques de Europa,Lobulada,Naranja,Arbóreo,Alta,5,Boreal
+54,Ficus carica,35.85,Áreas templadas de Asia,Espinosa,Rosa,Trepador,Baja,6,Tropical
+55,Lilium candidum,24.12,Selva Amazónica,Lanceolada,Naranja,Rastrero,Alta,2,Boreal
+56,Quercus robur,36.91,Áreas rurales de Europa,Palmeada,Naranja,Trepador,Baja,3,Boreal
+57,Rosa canina,4.0,Áreas templadas de Asia,Pinnada,Rosa,Arbóreo,Media,3,Templado
+58,Cactaceae echinopsis,8.24,Desiertos de América Latina,Espinosa,Amarilla,Herbáceo,Baja,4,Boreal
+59,Cactaceae echinopsis,2.29,Selva Amazónica,Acicular,Amarilla,Trepador,Media,1,Mediterráneo
+60,Populus alba,13.35,Zonas montañosas,Palmeada,Naranja,Arbustivo,Media,2,Boreal
+61,Eucalyptus globulus,15.85,Desiertos de América Latina,Lanceolada,Amarilla,Rastrero,Baja,4,Templado
+62,Populus alba,11.22,Áreas templadas de Asia,Lanceolada,Naranja,Trepador,Media,2,Templado
+63,Rosa canina,33.24,Bosques de Europa,Pinnada,Naranja,Rastrero,Baja,1,Templado
+64,Pinus sylvestris,14.59,Bosques de Europa,Lobulada,Sin flor visible,Arbustivo,Media,6,Tropical
+65,Eucalyptus globulus,11.6,Zonas montañosas,Pinnada,Violeta,Herbáceo,Alta,6,Mediterráneo
+66,Betula pendula,21.94,Bosques boreales,Acicular,Sin flor visible,Herbáceo,Alta,3,Tropical
+67,Pinus sylvestris,6.07,Altiplano Andino,Palmeada,Rosa,Arbustivo,Media,6,Desértico
+68,Eucalyptus globulus,32.19,Áreas rurales de Europa,Palmeada,Violeta,Rastrero,Media,6,Mediterráneo
+69,Eucalyptus globulus,3.44,Bosques boreales,Ovalada,Blanca,Trepador,Baja,0,Boreal
+70,Rosa canina,39.48,Bosques de Europa,Lobulada,Rosa,Arbustivo,Alta,3,Templado
+71,Ficus carica,31.0,Bosques de Europa,Lobulada,Roja,Arbóreo,Baja,4,Desértico
+72,Rosa canina,8.35,Sabana Africana,Palmeada,Sin flor visible,Rastrero,Media,5,Mediterráneo
+73,Eucalyptus globulus,0.72,Desiertos de América Latina,Palmeada,Amarilla,Herbáceo,Media,0,Tropical
+74,Quercus robur,32.71,Áreas templadas de Asia,Espinosa,Sin flor visible,Arbustivo,Baja,4,Templado
+75,Pinus sylvestris,28.42,Áreas rurales de Europa,Espinosa,Amarilla,Herbáceo,Media,1,Tropical
+76,Rosa canina,29.3,Zonas montañosas,Espinosa,Violeta,Rastrero,Alta,0,Mediterráneo
+77,Ficus carica,30.97,Áreas templadas de Asia,Lobulada,Roja,Herbáceo,Baja,4,Mediterráneo
+78,Lilium candidum,3.42,Sabana Africana,Ovalada,Violeta,Arbustivo,Alta,1,Desértico
+79,Populus alba,14.66,Bosques de Europa,Lanceolada,Roja,Rastrero,Alta,3,Boreal
+80,Eucalyptus globulus,5.08,Zonas montañosas,Espinosa,Sin flor visible,Arbóreo,Alta,5,Tropical
+81,Betula pendula,34.59,Bosques de Europa,Ovalada,Amarilla,Arbustivo,Baja,1,Desértico
+82,Lilium candidum,25.12,Áreas rurales de Europa,Pinnada,Violeta,Trepador,Media,6,Templado
+83,Cactaceae echinopsis,13.57,Desiertos de América Latina,Acicular,Roja,Arbustivo,Alta,2,Boreal
+84,Salvia officinalis,3.01,Áreas templadas de Asia,Espinosa,Naranja,Rastrero,Alta,1,Desértico
+85,Ficus carica,12.78,Áreas templadas de Asia,Pinnada,Rosa,Arbustivo,Alta,1,Tropical
+86,Betula pendula,13.34,Bosques boreales,Lanceolada,Rosa,Arbóreo,Media,5,Mediterráneo
+87,Salvia officinalis,29.32,Zonas montañosas,Acicular,Violeta,Arbóreo,Media,2,Templado
+88,Ficus carica,25.68,Altiplano Andino,Acicular,Amarilla,Trepador,Baja,6,Tropical
+89,Quercus robur,35.54,Sabana Africana,Lanceolada,Naranja,Herbáceo,Media,4,Boreal
+90,Populus alba,19.15,Altiplano Andino,Espinosa,Violeta,Rastrero,Baja,4,Boreal
+91,Lilium candidum,5.22,Bosques boreales,Lobulada,Sin flor visible,Rastrero,Baja,1,Mediterráneo
+92,Pinus sylvestris,28.67,Áreas rurales de Europa,Lanceolada,Roja,Herbáceo,Baja,2,Mediterráneo
+93,Ficus carica,30.55,Sabana Africana,Lanceolada,Sin flor visible,Arbóreo,Baja,2,Templado
+94,Pinus sylvestris,22.67,Desiertos de América Latina,Lanceolada,Rosa,Arbóreo,Baja,6,Templado
+95,Populus alba,30.95,Altiplano Andino,Acicular,Roja,Arbustivo,Alta,5,Mediterráneo
+96,Eucalyptus globulus,20.0,Desiertos de América Latina,Ovalada,Violeta,Trepador,Media,3,Mediterráneo
+97,Cactaceae echinopsis,21.15,Altiplano Andino,Pinnada,Sin flor visible,Trepador,Alta,4,Boreal
+98,Lilium candidum,17.39,Desiertos de América Latina,Lobulada,Blanca,Trepador,Baja,5,Mediterráneo
+99,Populus alba,1.5,Altiplano Andino,Espinosa,Amarilla,Arbustivo,Media,0,Desértico
+100,Populus alba,4.76,Desiertos de América Latina,Espinosa,Naranja,Trepador,Alta,4,Tropical
+101,Quercus robur,1.74,Bosques boreales,Pinnada,Naranja,Herbáceo,Alta,5,Mediterráneo
+102,Salvia officinalis,25.64,Selva Amazónica,Ovalada,Amarilla,Arbustivo,Baja,4,Templado
+103,Cactaceae echinopsis,12.92,Sabana Africana,Lanceolada,Blanca,Herbáceo,Alta,3,Desértico
+104,Lilium candidum,20.59,Zonas montañosas,Lobulada,Rosa,Arbustivo,Alta,0,Templado
+105,Eucalyptus globulus,36.35,Áreas rurales de Europa,Espinosa,Roja,Trepador,Alta,3,Desértico
+106,Eucalyptus globulus,10.35,Zonas costeras del Mediterráneo,Pinnada,Amarilla,Herbáceo,Alta,6,Mediterráneo
+107,Rosa canina,16.71,Bosques de Europa,Palmeada,Blanca,Herbáceo,Alta,0,Tropical
+108,Populus alba,30.34,Zonas montañosas,Pinnada,Violeta,Herbáceo,Baja,1,Templado
+109,Ficus carica,9.54,Bosques de Europa,Espinosa,Naranja,Arbustivo,Baja,5,Desértico
+110,Quercus robur,3.54,Sabana Africana,Lanceolada,Blanca,Rastrero,Alta,0,Boreal
+111,Cactaceae echinopsis,11.95,Zonas montañosas,Palmeada,Rosa,Trepador,Baja,6,Mediterráneo
+112,Eucalyptus globulus,6.87,Desiertos de América Latina,Ovalada,Rosa,Herbáceo,Baja,6,Tropical
+113,Lilium candidum,37.22,Desiertos de América Latina,Lobulada,Sin flor visible,Rastrero,Media,3,Mediterráneo
+114,Rosa canina,32.42,Zonas costeras del Mediterráneo,Ovalada,Amarilla,Trepador,Alta,4,Boreal
+115,Lilium candidum,25.52,Bosques de Europa,Ovalada,Sin flor visible,Trepador,Baja,0,Tropical
+116,Quercus robur,34.92,Áreas rurales de Europa,Pinnada,Naranja,Herbáceo,Baja,5,Boreal
+117,Ficus carica,32.25,Sabana Africana,Lobulada,Blanca,Herbáceo,Alta,0,Mediterráneo
+118,Rosa canina,7.87,Desiertos de América Latina,Lobulada,Roja,Arbustivo,Media,2,Desértico
+119,Rosa canina,35.76,Selva Amazónica,Espinosa,Roja,Rastrero,Alta,4,Mediterráneo
+120,Salvia officinalis,21.8,Bosques boreales,Espinosa,Rosa,Rastrero,Media,5,Mediterráneo
+121,Cactaceae echinopsis,32.39,Bosques boreales,Lobulada,Roja,Herbáceo,Alta,5,Mediterráneo
+122,Rosa canina,35.9,Altiplano Andino,Palmeada,Roja,Trepador,Alta,1,Templado
+123,Salvia officinalis,13.06,Áreas rurales de Europa,Acicular,Naranja,Herbáceo,Alta,3,Boreal
+124,Salvia officinalis,4.85,Bosques boreales,Espinosa,Roja,Trepador,Alta,1,Boreal
+125,Quercus robur,9.5,Altiplano Andino,Acicular,Blanca,Trepador,Media,5,Boreal
+126,Pinus sylvestris,17.37,Bosques de Europa,Pinnada,Roja,Herbáceo,Media,4,Templado
+127,Lilium candidum,32.81,Desiertos de América Latina,Palmeada,Violeta,Arbóreo,Baja,0,Desértico
+128,Ficus carica,34.5,Desiertos de América Latina,Lobulada,Roja,Rastrero,Alta,0,Mediterráneo
+129,Betula pendula,0.77,Selva Amazónica,Palmeada,Roja,Trepador,Media,4,Desértico
+130,Lilium candidum,20.67,Zonas montañosas,Espinosa,Sin flor visible,Trepador,Media,5,Templado
+131,Rosa canina,16.99,Bosques boreales,Ovalada,Blanca,Arbóreo,Media,6,Boreal
+132,Ficus carica,9.27,Bosques de Europa,Pinnada,Rosa,Arbustivo,Alta,0,Mediterráneo
+133,Eucalyptus globulus,5.23,Áreas templadas de Asia,Lobulada,Sin flor visible,Arbóreo,Baja,6,Tropical
+134,Pinus sylvestris,13.84,Bosques boreales,Lanceolada,Amarilla,Arbóreo,Media,0,Tropical
+135,Eucalyptus globulus,37.74,Áreas rurales de Europa,Pinnada,Blanca,Trepador,Alta,0,Desértico
+136,Eucalyptus globulus,13.27,Zonas montañosas,Acicular,Violeta,Rastrero,Media,3,Boreal
+137,Cactaceae echinopsis,20.99,Bosques boreales,Palmeada,Blanca,Arbóreo,Media,3,Tropical
+138,Lilium candidum,28.27,Bosques de Europa,Lobulada,Amarilla,Arbustivo,Baja,2,Desértico
+139,Betula pendula,14.86,Bosques boreales,Pinnada,Amarilla,Herbáceo,Media,1,Templado
+140,Quercus robur,38.89,Áreas rurales de Europa,Palmeada,Amarilla,Arbóreo,Media,4,Desértico
+141,Betula pendula,38.52,Áreas templadas de Asia,Lobulada,Naranja,Arbóreo,Alta,4,Desértico
+142,Eucalyptus globulus,10.45,Sabana Africana,Espinosa,Rosa,Arbustivo,Alta,4,Desértico
+143,Rosa canina,20.14,Zonas costeras del Mediterráneo,Pinnada,Roja,Rastrero,Baja,2,Mediterráneo
+144,Pinus sylvestris,12.38,Áreas templadas de Asia,Espinosa,Blanca,Arbóreo,Alta,3,Desértico
+145,Populus alba,11.75,Altiplano Andino,Pinnada,Naranja,Arbóreo,Alta,5,Desértico
+146,Betula pendula,1.96,Bosques boreales,Espinosa,Roja,Rastrero,Baja,6,Mediterráneo
+147,Eucalyptus globulus,24.58,Desiertos de América Latina,Palmeada,Roja,Arbustivo,Media,6,Mediterráneo
+148,Pinus sylvestris,20.36,Selva Amazónica,Lanceolada,Violeta,Arbóreo,Baja,5,Templado
+149,Ficus carica,2.53,Desiertos de América Latina,Pinnada,Amarilla,Rastrero,Alta,2,Boreal
+150,Lilium candidum,11.51,Áreas templadas de Asia,Pinnada,Rosa,Arbóreo,Baja,5,Tropical
+151,Salvia officinalis,36.38,Desiertos de América Latina,Espinosa,Violeta,Herbáceo,Media,4,Tropical
+152,Cactaceae echinopsis,9.96,Bosques de Europa,Lobulada,Sin flor visible,Trepador,Baja,1,Desértico
+153,Pinus sylvestris,6.22,Desiertos de América Latina,Pinnada,Naranja,Herbáceo,Alta,0,Templado
+154,Rosa canina,19.83,Zonas montañosas,Espinosa,Naranja,Arbóreo,Alta,6,Desértico
+155,Rosa canina,39.43,Sabana Africana,Ovalada,Rosa,Arbustivo,Baja,3,Tropical
+156,Pinus sylvestris,10.06,Bosques boreales,Espinosa,Roja,Trepador,Media,3,Mediterráneo
+157,Rosa canina,27.05,Desiertos de América Latina,Palmeada,Naranja,Herbáceo,Baja,2,Boreal
+158,Lilium candidum,30.58,Áreas rurales de Europa,Lanceolada,Rosa,Rastrero,Media,3,Templado
+159,Rosa canina,9.89,Sabana Africana,Ovalada,Naranja,Arbustivo,Media,4,Mediterráneo
+160,Betula pendula,29.26,Sabana Africana,Palmeada,Naranja,Herbáceo,Baja,6,Boreal
+161,Salvia officinalis,15.03,Desiertos de América Latina,Palmeada,Amarilla,Rastrero,Media,5,Templado
+162,Rosa canina,25.48,Sabana Africana,Palmeada,Sin flor visible,Arbóreo,Alta,4,Templado
+163,Salvia officinalis,25.52,Selva Amazónica,Lobulada,Amarilla,Rastrero,Baja,2,Tropical
+164,Eucalyptus globulus,21.66,Desiertos de América Latina,Palmeada,Sin flor visible,Herbáceo,Media,4,Mediterráneo
+165,Quercus robur,4.07,Bosques de Europa,Lobulada,Naranja,Herbáceo,Alta,5,Templado
+166,Lilium candidum,33.49,Áreas templadas de Asia,Palmeada,Violeta,Arbóreo,Baja,1,Templado
+167,Quercus robur,13.17,Zonas montañosas,Acicular,Roja,Rastrero,Alta,2,Boreal
+168,Eucalyptus globulus,7.87,Zonas costeras del Mediterráneo,Ovalada,Naranja,Rastrero,Alta,1,Tropical
+169,Lilium candidum,2.11,Altiplano Andino,Acicular,Sin flor visible,Arbóreo,Alta,0,Desértico
+170,Pinus sylvestris,23.84,Sabana Africana,Palmeada,Sin flor visible,Rastrero,Media,1,Tropical
+171,Pinus sylvestris,27.26,Bosques de Europa,Ovalada,Sin flor visible,Arbóreo,Baja,0,Desértico
+172,Salvia officinalis,1.16,Bosques boreales,Ovalada,Naranja,Arbustivo,Baja,0,Mediterráneo
+173,Eucalyptus globulus,20.73,Bosques boreales,Pinnada,Rosa,Herbáceo,Media,1,Mediterráneo
+174,Salvia officinalis,9.45,Altiplano Andino,Lanceolada,Violeta,Arbustivo,Baja,2,Templado
+175,Cactaceae echinopsis,25.98,Zonas montañosas,Acicular,Rosa,Trepador,Alta,5,Mediterráneo
+176,Rosa canina,7.39,Sabana Africana,Lanceolada,Roja,Trepador,Baja,4,Templado
+177,Populus alba,27.79,Selva Amazónica,Ovalada,Naranja,Trepador,Media,4,Tropical
+178,Cactaceae echinopsis,15.78,Altiplano Andino,Lobulada,Sin flor visible,Arbóreo,Alta,5,Mediterráneo
+179,Rosa canina,37.5,Zonas montañosas,Ovalada,Violeta,Rastrero,Media,6,Tropical
+180,Lilium candidum,5.93,Sabana Africana,Lanceolada,Violeta,Arbustivo,Alta,6,Tropical
+181,Salvia officinalis,13.97,Bosques de Europa,Acicular,Blanca,Arbustivo,Alta,0,Mediterráneo
+182,Lilium candidum,4.98,Áreas templadas de Asia,Palmeada,Roja,Arbustivo,Baja,0,Tropical
+183,Lilium candidum,37.03,Selva Amazónica,Pinnada,Violeta,Arbustivo,Alta,2,Mediterráneo
+184,Rosa canina,35.15,Zonas costeras del Mediterráneo,Pinnada,Naranja,Trepador,Media,3,Mediterráneo
+185,Eucalyptus globulus,10.69,Bosques boreales,Pinnada,Sin flor visible,Arbustivo,Baja,1,Mediterráneo
+186,Rosa canina,26.57,Áreas rurales de Europa,Palmeada,Sin flor visible,Rastrero,Media,0,Desértico
+187,Ficus carica,32.78,Bosques de Europa,Pinnada,Violeta,Trepador,Alta,4,Tropical
+188,Pinus sylvestris,22.43,Bosques boreales,Acicular,Rosa,Arbustivo,Media,2,Boreal
+189,Pinus sylvestris,21.42,Desiertos de América Latina,Palmeada,Roja,Arbóreo,Media,1,Mediterráneo
+190,Cactaceae echinopsis,10.05,Áreas rurales de Europa,Pinnada,Sin flor visible,Herbáceo,Alta,2,Tropical
+191,Pinus sylvestris,4.18,Bosques boreales,Palmeada,Violeta,Herbáceo,Baja,1,Templado
+192,Rosa canina,35.94,Zonas montañosas,Lanceolada,Sin flor visible,Herbáceo,Media,1,Mediterráneo
+193,Betula pendula,36.07,Selva Amazónica,Acicular,Violeta,Trepador,Alta,5,Mediterráneo
+194,Salvia officinalis,25.51,Bosques boreales,Espinosa,Roja,Arbustivo,Baja,0,Boreal
+195,Rosa canina,13.89,Zonas costeras del Mediterráneo,Lobulada,Violeta,Trepador,Baja,2,Desértico
+196,Rosa canina,14.29,Áreas templadas de Asia,Pinnada,Blanca,Rastrero,Baja,2,Desértico
+197,Populus alba,29.18,Zonas montañosas,Lobulada,Violeta,Arbóreo,Media,5,Mediterráneo
+198,Salvia officinalis,35.94,Bosques de Europa,Palmeada,Violeta,Arbóreo,Media,4,Tropical
+199,Ficus carica,35.54,Bosques de Europa,Lobulada,Naranja,Herbáceo,Media,4,Templado
+200,Pinus sylvestris,31.31,Bosques de Europa,Acicular,Roja,Herbáceo,Baja,6,Templado
+201,Salvia officinalis,25.86,Bosques de Europa,Acicular,Naranja,Herbáceo,Media,0,Tropical
+202,Pinus sylvestris,3.82,Áreas templadas de Asia,Ovalada,Violeta,Arbustivo,Alta,0,Mediterráneo
+203,Cactaceae echinopsis,6.88,Bosques boreales,Pinnada,Roja,Rastrero,Media,3,Templado
+204,Salvia officinalis,35.99,Sabana Africana,Ovalada,Blanca,Rastrero,Media,5,Desértico
+205,Pinus sylvestris,24.45,Bosques boreales,Lobulada,Roja,Rastrero,Baja,4,Tropical
+206,Ficus carica,0.86,Desiertos de América Latina,Espinosa,Sin flor visible,Rastrero,Media,1,Boreal
+207,Quercus robur,4.51,Selva Amazónica,Ovalada,Naranja,Herbáceo,Alta,2,Mediterráneo
+208,Lilium candidum,26.71,Áreas rurales de Europa,Ovalada,Roja,Arbóreo,Baja,0,Tropical
+209,Lilium candidum,0.7,Sabana Africana,Acicular,Blanca,Herbáceo,Alta,2,Templado
+210,Ficus carica,6.85,Sabana Africana,Espinosa,Amarilla,Rastrero,Baja,2,Mediterráneo
+211,Populus alba,22.17,Bosques boreales,Palmeada,Violeta,Herbáceo,Baja,3,Desértico
+212,Quercus robur,27.83,Sabana Africana,Lobulada,Roja,Rastrero,Media,4,Mediterráneo
+213,Cactaceae echinopsis,26.25,Altiplano Andino,Ovalada,Violeta,Trepador,Alta,0,Mediterráneo
+214,Ficus carica,9.36,Altiplano Andino,Espinosa,Rosa,Arbóreo,Baja,2,Desértico
+215,Lilium candidum,28.63,Desiertos de América Latina,Pinnada,Sin flor visible,Trepador,Media,0,Desértico
+216,Lilium candidum,9.87,Áreas rurales de Europa,Espinosa,Naranja,Arbustivo,Baja,1,Mediterráneo
+217,Lilium candidum,13.35,Zonas costeras del Mediterráneo,Lobulada,Sin flor visible,Herbáceo,Baja,3,Desértico
+218,Eucalyptus globulus,29.99,Áreas templadas de Asia,Espinosa,Rosa,Arbustivo,Baja,1,Tropical
+219,Ficus carica,26.16,Bosques boreales,Espinosa,Rosa,Herbáceo,Baja,0,Desértico
+220,Rosa canina,34.04,Áreas templadas de Asia,Espinosa,Naranja,Trepador,Baja,6,Desértico
+221,Cactaceae echinopsis,26.48,Zonas costeras del Mediterráneo,Pinnada,Roja,Rastrero,Baja,0,Mediterráneo
+222,Lilium candidum,22.95,Bosques boreales,Ovalada,Rosa,Rastrero,Media,4,Tropical
+223,Pinus sylvestris,4.2,Bosques boreales,Lobulada,Amarilla,Herbáceo,Baja,2,Boreal
+224,Ficus carica,15.02,Áreas rurales de Europa,Pinnada,Violeta,Rastrero,Alta,2,Boreal
+225,Eucalyptus globulus,10.98,Áreas templadas de Asia,Espinosa,Violeta,Trepador,Media,1,Templado
+226,Ficus carica,10.14,Altiplano Andino,Espinosa,Blanca,Rastrero,Alta,3,Desértico
+227,Cactaceae echinopsis,38.93,Bosques de Europa,Ovalada,Rosa,Trepador,Baja,6,Desértico
+228,Eucalyptus globulus,16.03,Áreas templadas de Asia,Lobulada,Rosa,Arbustivo,Alta,5,Tropical
+229,Cactaceae echinopsis,35.74,Selva Amazónica,Acicular,Amarilla,Trepador,Baja,2,Boreal
+230,Ficus carica,25.43,Selva Amazónica,Pinnada,Sin flor visible,Arbóreo,Baja,4,Templado
+231,Rosa canina,31.9,Bosques boreales,Ovalada,Sin flor visible,Arbóreo,Media,1,Tropical
+232,Cactaceae echinopsis,20.35,Bosques de Europa,Lobulada,Violeta,Arbóreo,Media,1,Desértico
+233,Eucalyptus globulus,23.29,Zonas montañosas,Pinnada,Violeta,Herbáceo,Baja,5,Boreal
+234,Eucalyptus globulus,19.95,Zonas costeras del Mediterráneo,Espinosa,Roja,Herbáceo,Media,4,Templado
+235,Cactaceae echinopsis,8.21,Desiertos de América Latina,Lobulada,Naranja,Herbáceo,Alta,3,Mediterráneo
+236,Betula pendula,29.04,Bosques de Europa,Lobulada,Amarilla,Trepador,Media,4,Boreal
+237,Ficus carica,11.59,Desiertos de América Latina,Palmeada,Naranja,Herbáceo,Media,3,Templado
+238,Betula pendula,1.46,Áreas templadas de Asia,Lobulada,Naranja,Arbustivo,Alta,4,Tropical
+239,Populus alba,26.0,Áreas templadas de Asia,Acicular,Blanca,Arbóreo,Media,4,Mediterráneo
+240,Ficus carica,7.5,Desiertos de América Latina,Lobulada,Naranja,Trepador,Baja,0,Templado
+241,Cactaceae echinopsis,37.65,Zonas costeras del Mediterráneo,Acicular,Blanca,Arbóreo,Alta,1,Templado
+242,Quercus robur,38.18,Bosques de Europa,Espinosa,Naranja,Herbáceo,Baja,4,Desértico
+243,Cactaceae echinopsis,36.64,Zonas montañosas,Acicular,Amarilla,Trepador,Alta,5,Boreal
+244,Betula pendula,15.12,Bosques boreales,Pinnada,Blanca,Rastrero,Baja,4,Desértico
+245,Rosa canina,1.11,Áreas rurales de Europa,Espinosa,Sin flor visible,Arbustivo,Baja,2,Mediterráneo
+246,Cactaceae echinopsis,37.17,Áreas templadas de Asia,Espinosa,Blanca,Herbáceo,Media,1,Templado
+247,Cactaceae echinopsis,17.41,Selva Amazónica,Acicular,Blanca,Herbáceo,Baja,2,Desértico
+248,Rosa canina,38.68,Zonas costeras del Mediterráneo,Ovalada,Amarilla,Arbustivo,Media,1,Boreal
+249,Cactaceae echinopsis,38.56,Áreas rurales de Europa,Lanceolada,Amarilla,Arbustivo,Alta,2,Mediterráneo
+250,Lilium candidum,34.19,Zonas montañosas,Lobulada,Blanca,Rastrero,Baja,4,Tropical
+251,Quercus robur,12.13,Sabana Africana,Palmeada,Rosa,Herbáceo,Baja,4,Desértico
+252,Pinus sylvestris,15.71,Bosques boreales,Lanceolada,Amarilla,Herbáceo,Alta,0,Mediterráneo
+253,Quercus robur,34.12,Áreas templadas de Asia,Lobulada,Roja,Arbóreo,Alta,5,Tropical
+254,Cactaceae echinopsis,13.02,Bosques boreales,Lobulada,Roja,Trepador,Baja,2,Desértico
+255,Lilium candidum,7.19,Áreas rurales de Europa,Espinosa,Sin flor visible,Trepador,Alta,3,Mediterráneo
+256,Ficus carica,22.49,Bosques boreales,Lobulada,Naranja,Arbóreo,Media,0,Mediterráneo
+257,Cactaceae echinopsis,37.48,Sabana Africana,Palmeada,Blanca,Trepador,Alta,2,Desértico
+258,Betula pendula,27.99,Áreas rurales de Europa,Lobulada,Rosa,Arbustivo,Alta,2,Mediterráneo
+259,Lilium candidum,23.02,Áreas templadas de Asia,Acicular,Sin flor visible,Trepador,Baja,0,Templado
+260,Rosa canina,4.34,Bosques de Europa,Lanceolada,Blanca,Trepador,Media,4,Desértico
+261,Lilium candidum,24.79,Selva Amazónica,Acicular,Amarilla,Arbóreo,Alta,2,Mediterráneo
+262,Rosa canina,39.61,Áreas rurales de Europa,Palmeada,Roja,Rastrero,Media,4,Tropical
+263,Populus alba,6.03,Altiplano Andino,Lobulada,Violeta,Trepador,Media,0,Tropical
+264,Pinus sylvestris,20.97,Sabana Africana,Pinnada,Rosa,Trepador,Media,4,Templado
+265,Salvia officinalis,35.16,Áreas rurales de Europa,Palmeada,Violeta,Rastrero,Baja,1,Desértico
+266,Lilium candidum,29.76,Áreas rurales de Europa,Espinosa,Roja,Arbóreo,Alta,3,Mediterráneo
+267,Eucalyptus globulus,28.03,Altiplano Andino,Acicular,Naranja,Rastrero,Baja,6,Mediterráneo
+268,Betula pendula,28.25,Áreas templadas de Asia,Acicular,Naranja,Arbóreo,Alta,2,Tropical
+269,Cactaceae echinopsis,14.7,Áreas rurales de Europa,Ovalada,Violeta,Arbustivo,Alta,5,Templado
+270,Betula pendula,12.1,Selva Amazónica,Lobulada,Amarilla,Arbóreo,Baja,3,Tropical
+271,Quercus robur,32.47,Bosques boreales,Espinosa,Blanca,Arbustivo,Media,6,Tropical
+272,Salvia officinalis,32.5,Áreas templadas de Asia,Pinnada,Amarilla,Arbustivo,Media,4,Templado
+273,Quercus robur,34.75,Selva Amazónica,Acicular,Violeta,Arbóreo,Alta,2,Desértico
+274,Populus alba,36.57,Áreas templadas de Asia,Acicular,Amarilla,Herbáceo,Baja,4,Mediterráneo
+275,Salvia officinalis,20.7,Selva Amazónica,Espinosa,Roja,Arbóreo,Media,1,Desértico
+276,Salvia officinalis,20.31,Sabana Africana,Palmeada,Rosa,Trepador,Media,0,Boreal
+277,Quercus robur,32.03,Selva Amazónica,Palmeada,Amarilla,Trepador,Alta,2,Boreal
+278,Rosa canina,26.17,Desiertos de América Latina,Lobulada,Roja,Herbáceo,Alta,6,Boreal
+279,Quercus robur,28.23,Selva Amazónica,Ovalada,Rosa,Arbustivo,Baja,6,Templado
+280,Betula pendula,31.93,Bosques de Europa,Acicular,Naranja,Herbáceo,Alta,1,Tropical
+281,Rosa canina,35.66,Bosques de Europa,Ovalada,Blanca,Trepador,Media,1,Desértico
+282,Betula pendula,13.85,Zonas costeras del Mediterráneo,Palmeada,Violeta,Herbáceo,Media,2,Mediterráneo
+283,Populus alba,15.34,Desiertos de América Latina,Palmeada,Naranja,Arbóreo,Media,4,Boreal
+284,Cactaceae echinopsis,4.21,Desiertos de América Latina,Lanceolada,Blanca,Herbáceo,Media,5,Desértico
+285,Ficus carica,23.34,Bosques boreales,Pinnada,Naranja,Arbustivo,Baja,6,Boreal
+286,Rosa canina,1.92,Desiertos de América Latina,Lobulada,Sin flor visible,Arbóreo,Baja,6,Boreal
+287,Populus alba,18.89,Bosques boreales,Lanceolada,Naranja,Rastrero,Alta,1,Mediterráneo
+288,Eucalyptus globulus,21.93,Zonas costeras del Mediterráneo,Pinnada,Roja,Trepador,Alta,3,Templado
+289,Populus alba,11.82,Zonas costeras del Mediterráneo,Lanceolada,Rosa,Trepador,Alta,1,Tropical
+290,Quercus robur,23.84,Sabana Africana,Lanceolada,Naranja,Herbáceo,Baja,5,Templado
+291,Quercus robur,1.7,Bosques de Europa,Lobulada,Amarilla,Arbóreo,Media,4,Desértico
+292,Ficus carica,1.98,Selva Amazónica,Lobulada,Blanca,Rastrero,Alta,4,Templado
+293,Populus alba,32.99,Selva Amazónica,Espinosa,Naranja,Arbóreo,Media,3,Desértico
+294,Pinus sylvestris,14.73,Altiplano Andino,Ovalada,Rosa,Trepador,Alta,6,Desértico
+295,Cactaceae echinopsis,5.52,Altiplano Andino,Ovalada,Roja,Arbóreo,Alta,1,Tropical
+296,Quercus robur,21.13,Zonas montañosas,Espinosa,Sin flor visible,Rastrero,Alta,4,Mediterráneo
+297,Ficus carica,30.91,Áreas templadas de Asia,Espinosa,Blanca,Herbáceo,Alta,5,Tropical
+298,Cactaceae echinopsis,9.02,Sabana Africana,Palmeada,Violeta,Arbustivo,Alta,2,Templado
+299,Populus alba,25.1,Zonas montañosas,Pinnada,Rosa,Arbóreo,Media,0,Desértico
+300,Populus alba,3.87,Zonas montañosas,Lanceolada,Violeta,Arbustivo,Alta,0,Boreal
+301,Salvia officinalis,2.54,Áreas rurales de Europa,Espinosa,Rosa,Trepador,Media,0,Boreal
+302,Ficus carica,21.49,Áreas rurales de Europa,Acicular,Rosa,Herbáceo,Baja,6,Desértico
+303,Quercus robur,21.86,Zonas montañosas,Ovalada,Roja,Herbáceo,Alta,1,Tropical
+304,Pinus sylvestris,25.68,Desiertos de América Latina,Espinosa,Roja,Arbóreo,Media,3,Mediterráneo
+305,Populus alba,29.18,Áreas templadas de Asia,Acicular,Roja,Herbáceo,Baja,4,Tropical
+306,Pinus sylvestris,39.05,Sabana Africana,Acicular,Naranja,Arbóreo,Baja,2,Desértico
+307,Populus alba,20.89,Zonas montañosas,Acicular,Amarilla,Arbóreo,Baja,5,Desértico
+308,Quercus robur,13.26,Selva Amazónica,Palmeada,Rosa,Arbustivo,Media,2,Mediterráneo
+309,Cactaceae echinopsis,31.91,Áreas templadas de Asia,Palmeada,Blanca,Herbáceo,Alta,5,Templado
+310,Lilium candidum,11.2,Áreas rurales de Europa,Acicular,Violeta,Arbóreo,Alta,6,Templado
+311,Cactaceae echinopsis,17.84,Selva Amazónica,Pinnada,Roja,Arbustivo,Media,1,Mediterráneo
+312,Populus alba,3.6,Áreas rurales de Europa,Palmeada,Naranja,Rastrero,Alta,0,Templado
+313,Betula pendula,1.5,Áreas rurales de Europa,Lanceolada,Roja,Arbustivo,Media,1,Boreal
+314,Lilium candidum,38.52,Áreas templadas de Asia,Acicular,Violeta,Arbustivo,Alta,6,Templado
+315,Lilium candidum,33.52,Áreas rurales de Europa,Lanceolada,Violeta,Arbóreo,Baja,3,Templado
+316,Pinus sylvestris,27.99,Zonas costeras del Mediterráneo,Lanceolada,Rosa,Trepador,Alta,3,Templado
+317,Ficus carica,16.65,Bosques de Europa,Acicular,Roja,Trepador,Media,6,Boreal
+318,Pinus sylvestris,7.35,Zonas costeras del Mediterráneo,Ovalada,Violeta,Trepador,Media,5,Templado
+319,Pinus sylvestris,6.68,Bosques de Europa,Pinnada,Amarilla,Arbustivo,Baja,4,Boreal
+320,Betula pendula,10.38,Altiplano Andino,Acicular,Amarilla,Arbóreo,Media,4,Mediterráneo
+321,Cactaceae echinopsis,22.19,Altiplano Andino,Acicular,Roja,Herbáceo,Alta,5,Tropical
+322,Cactaceae echinopsis,28.73,Áreas rurales de Europa,Palmeada,Naranja,Arbustivo,Alta,3,Mediterráneo
+323,Eucalyptus globulus,26.58,Sabana Africana,Acicular,Violeta,Arbustivo,Baja,3,Tropical
+324,Populus alba,11.56,Sabana Africana,Ovalada,Rosa,Arbóreo,Media,3,Mediterráneo
+325,Betula pendula,38.22,Bosques de Europa,Palmeada,Rosa,Rastrero,Baja,1,Tropical
+326,Eucalyptus globulus,29.65,Selva Amazónica,Lobulada,Naranja,Arbustivo,Alta,3,Tropical
+327,Quercus robur,22.4,Áreas templadas de Asia,Lobulada,Rosa,Rastrero,Baja,2,Desértico
+328,Populus alba,24.66,Áreas rurales de Europa,Lanceolada,Sin flor visible,Rastrero,Media,0,Tropical
+329,Populus alba,17.07,Áreas templadas de Asia,Pinnada,Roja,Trepador,Baja,3,Tropical
+330,Salvia officinalis,10.29,Zonas costeras del Mediterráneo,Lanceolada,Rosa,Arbóreo,Media,5,Desértico
+331,Salvia officinalis,14.56,Sabana Africana,Ovalada,Amarilla,Rastrero,Media,0,Templado
+332,Rosa canina,30.43,Desiertos de América Latina,Espinosa,Violeta,Arbóreo,Alta,1,Templado
+333,Rosa canina,1.07,Zonas costeras del Mediterráneo,Pinnada,Blanca,Trepador,Alta,5,Desértico
+334,Pinus sylvestris,5.08,Zonas costeras del Mediterráneo,Lobulada,Naranja,Arbóreo,Alta,0,Boreal
+335,Quercus robur,2.32,Bosques de Europa,Lanceolada,Blanca,Arbustivo,Media,5,Tropical
+336,Lilium candidum,2.11,Bosques boreales,Lobulada,Rosa,Rastrero,Baja,1,Tropical
+337,Lilium candidum,34.29,Zonas costeras del Mediterráneo,Ovalada,Blanca,Arbóreo,Media,2,Desértico
+338,Salvia officinalis,28.29,Áreas rurales de Europa,Ovalada,Blanca,Herbáceo,Alta,1,Desértico
+339,Salvia officinalis,19.23,Zonas montañosas,Espinosa,Sin flor visible,Arbóreo,Alta,1,Boreal
+340,Salvia officinalis,4.36,Zonas montañosas,Espinosa,Amarilla,Rastrero,Baja,5,Templado
+341,Betula pendula,19.92,Áreas rurales de Europa,Palmeada,Naranja,Trepador,Alta,6,Mediterráneo
+342,Ficus carica,19.2,Bosques boreales,Pinnada,Amarilla,Trepador,Alta,4,Templado
+343,Rosa canina,7.34,Bosques boreales,Ovalada,Sin flor visible,Rastrero,Alta,3,Tropical
+344,Betula pendula,17.64,Bosques de Europa,Lanceolada,Sin flor visible,Arbustivo,Baja,3,Desértico
+345,Cactaceae echinopsis,16.24,Sabana Africana,Lobulada,Blanca,Arbustivo,Media,2,Boreal
+346,Lilium candidum,24.83,Áreas templadas de Asia,Acicular,Roja,Trepador,Alta,2,Templado
+347,Populus alba,25.59,Bosques boreales,Espinosa,Violeta,Trepador,Baja,3,Boreal
+348,Rosa canina,2.29,Desiertos de América Latina,Acicular,Violeta,Rastrero,Alta,4,Templado
+349,Eucalyptus globulus,15.3,Bosques de Europa,Lanceolada,Blanca,Arbustivo,Baja,3,Tropical
+350,Cactaceae echinopsis,25.22,Altiplano Andino,Espinosa,Violeta,Trepador,Alta,6,Mediterráneo
+351,Rosa canina,20.37,Selva Amazónica,Acicular,Sin flor visible,Arbustivo,Baja,4,Boreal
+352,Betula pendula,34.33,Altiplano Andino,Pinnada,Amarilla,Trepador,Alta,2,Boreal
+353,Quercus robur,26.52,Bosques de Europa,Lanceolada,Violeta,Arbóreo,Media,0,Mediterráneo
+354,Populus alba,6.94,Zonas costeras del Mediterráneo,Lobulada,Naranja,Herbáceo,Alta,5,Boreal
+355,Rosa canina,3.29,Áreas templadas de Asia,Pinnada,Blanca,Arbóreo,Baja,6,Boreal
+356,Ficus carica,25.88,Selva Amazónica,Lanceolada,Roja,Trepador,Alta,6,Templado
+357,Salvia officinalis,1.55,Altiplano Andino,Palmeada,Blanca,Herbáceo,Media,2,Templado
+358,Salvia officinalis,23.64,Selva Amazónica,Espinosa,Rosa,Herbáceo,Alta,2,Mediterráneo
+359,Populus alba,37.64,Desiertos de América Latina,Ovalada,Blanca,Trepador,Baja,1,Tropical
+360,Betula pendula,23.23,Desiertos de América Latina,Lobulada,Sin flor visible,Trepador,Baja,6,Boreal
+361,Salvia officinalis,15.83,Desiertos de América Latina,Pinnada,Amarilla,Arbustivo,Media,1,Tropical
+362,Rosa canina,25.91,Bosques de Europa,Pinnada,Amarilla,Trepador,Baja,1,Mediterráneo
+363,Eucalyptus globulus,18.6,Áreas templadas de Asia,Acicular,Naranja,Rastrero,Alta,5,Mediterráneo
+364,Lilium candidum,22.05,Bosques de Europa,Espinosa,Violeta,Trepador,Alta,1,Templado
+365,Lilium candidum,37.69,Zonas montañosas,Ovalada,Sin flor visible,Rastrero,Alta,4,Boreal
+366,Cactaceae echinopsis,15.75,Zonas costeras del Mediterráneo,Lanceolada,Rosa,Trepador,Baja,3,Desértico
+367,Pinus sylvestris,38.47,Zonas costeras del Mediterráneo,Ovalada,Sin flor visible,Arbustivo,Alta,0,Mediterráneo
+368,Quercus robur,36.26,Desiertos de América Latina,Espinosa,Blanca,Rastrero,Alta,2,Boreal
+369,Populus alba,8.23,Zonas montañosas,Espinosa,Sin flor visible,Arbóreo,Alta,4,Tropical
+370,Cactaceae echinopsis,3.24,Bosques boreales,Palmeada,Sin flor visible,Rastrero,Media,0,Templado
+371,Pinus sylvestris,4.48,Bosques boreales,Palmeada,Naranja,Arbustivo,Baja,6,Tropical
+372,Betula pendula,1.22,Desiertos de América Latina,Ovalada,Rosa,Rastrero,Baja,6,Mediterráneo
+373,Ficus carica,4.23,Altiplano Andino,Lanceolada,Blanca,Trepador,Baja,6,Mediterráneo
+374,Ficus carica,27.48,Bosques de Europa,Ovalada,Roja,Trepador,Media,4,Tropical
+375,Quercus robur,3.31,Desiertos de América Latina,Espinosa,Naranja,Arbustivo,Baja,4,Mediterráneo
+376,Salvia officinalis,13.1,Sabana Africana,Espinosa,Roja,Herbáceo,Media,2,Boreal
+377,Rosa canina,33.87,Selva Amazónica,Acicular,Naranja,Trepador,Media,3,Mediterráneo
+378,Cactaceae echinopsis,1.42,Zonas costeras del Mediterráneo,Palmeada,Amarilla,Arbóreo,Baja,1,Templado
+379,Cactaceae echinopsis,32.67,Bosques boreales,Acicular,Naranja,Arbustivo,Alta,6,Boreal
+380,Populus alba,11.63,Áreas rurales de Europa,Lobulada,Violeta,Rastrero,Alta,5,Desértico
+381,Populus alba,5.17,Bosques boreales,Espinosa,Sin flor visible,Rastrero,Baja,3,Mediterráneo
+382,Ficus carica,28.02,Zonas costeras del Mediterráneo,Acicular,Amarilla,Arbóreo,Baja,5,Mediterráneo
+383,Ficus carica,25.34,Selva Amazónica,Ovalada,Rosa,Trepador,Media,2,Templado
+384,Eucalyptus globulus,35.16,Zonas costeras del Mediterráneo,Palmeada,Roja,Arbustivo,Baja,2,Templado
+385,Eucalyptus globulus,29.54,Áreas rurales de Europa,Palmeada,Naranja,Arbóreo,Media,2,Tropical
+386,Salvia officinalis,32.24,Desiertos de América Latina,Lanceolada,Sin flor visible,Trepador,Baja,0,Tropical
+387,Eucalyptus globulus,11.64,Zonas montañosas,Ovalada,Rosa,Arbustivo,Alta,5,Tropical
+388,Rosa canina,7.51,Áreas rurales de Europa,Lanceolada,Violeta,Rastrero,Alta,3,Templado
+389,Rosa canina,30.15,Zonas costeras del Mediterráneo,Acicular,Rosa,Arbustivo,Baja,3,Tropical
+390,Cactaceae echinopsis,32.37,Zonas costeras del Mediterráneo,Pinnada,Sin flor visible,Herbáceo,Media,4,Tropical
+391,Lilium candidum,39.62,Sabana Africana,Lobulada,Violeta,Arbustivo,Alta,4,Desértico
+392,Rosa canina,16.8,Sabana Africana,Ovalada,Rosa,Herbáceo,Media,6,Tropical
+393,Pinus sylvestris,15.19,Áreas templadas de Asia,Ovalada,Violeta,Arbustivo,Baja,4,Mediterráneo
+394,Ficus carica,31.17,Sabana Africana,Ovalada,Naranja,Herbáceo,Baja,2,Templado
+395,Populus alba,13.96,Bosques de Europa,Lanceolada,Naranja,Rastrero,Alta,3,Boreal
+396,Eucalyptus globulus,37.26,Zonas montañosas,Acicular,Sin flor visible,Trepador,Baja,5,Desértico
+397,Cactaceae echinopsis,34.41,Selva Amazónica,Ovalada,Sin flor visible,Herbáceo,Alta,2,Templado
+398,Quercus robur,17.45,Áreas rurales de Europa,Pinnada,Violeta,Herbáceo,Media,0,Templado
+399,Populus alba,30.16,Zonas costeras del Mediterráneo,Ovalada,Blanca,Rastrero,Alta,4,Mediterráneo
+400,Pinus sylvestris,30.3,Áreas templadas de Asia,Palmeada,Amarilla,Herbáceo,Alta,2,Tropical
+401,Eucalyptus globulus,4.57,Áreas templadas de Asia,Lobulada,Rosa,Arbóreo,Media,2,Mediterráneo
+402,Pinus sylvestris,36.15,Selva Amazónica,Palmeada,Rosa,Rastrero,Alta,0,Tropical
+403,Ficus carica,20.46,Zonas montañosas,Palmeada,Blanca,Arbóreo,Alta,1,Tropical
+404,Ficus carica,33.15,Áreas rurales de Europa,Lobulada,Blanca,Rastrero,Baja,3,Templado
+405,Salvia officinalis,13.14,Bosques boreales,Pinnada,Blanca,Herbáceo,Media,5,Tropical
+406,Cactaceae echinopsis,35.87,Sabana Africana,Acicular,Roja,Arbóreo,Alta,6,Desértico
+407,Populus alba,15.87,Desiertos de América Latina,Palmeada,Roja,Herbáceo,Media,1,Desértico
+408,Betula pendula,0.93,Áreas templadas de Asia,Acicular,Violeta,Rastrero,Media,4,Desértico
+409,Betula pendula,36.26,Sabana Africana,Palmeada,Roja,Herbáceo,Alta,2,Templado
+410,Populus alba,4.11,Sabana Africana,Espinosa,Naranja,Arbóreo,Baja,0,Mediterráneo
+411,Quercus robur,13.11,Bosques de Europa,Lobulada,Naranja,Arbóreo,Media,0,Boreal
+412,Cactaceae echinopsis,38.03,Zonas montañosas,Palmeada,Sin flor visible,Herbáceo,Alta,3,Tropical
+413,Pinus sylvestris,38.05,Desiertos de América Latina,Espinosa,Violeta,Arbustivo,Media,1,Boreal
+414,Quercus robur,23.15,Bosques boreales,Lanceolada,Rosa,Rastrero,Baja,6,Mediterráneo
+415,Lilium candidum,25.46,Zonas costeras del Mediterráneo,Espinosa,Amarilla,Rastrero,Baja,3,Mediterráneo
+416,Populus alba,18.21,Bosques de Europa,Ovalada,Sin flor visible,Herbáceo,Baja,2,Templado
+417,Pinus sylvestris,12.08,Sabana Africana,Palmeada,Rosa,Arbustivo,Alta,3,Desértico
+418,Betula pendula,13.48,Sabana Africana,Espinosa,Rosa,Arbóreo,Alta,5,Desértico
+419,Rosa canina,27.06,Altiplano Andino,Acicular,Violeta,Trepador,Baja,0,Mediterráneo
+420,Salvia officinalis,30.22,Desiertos de América Latina,Lanceolada,Blanca,Trepador,Alta,0,Templado
+421,Betula pendula,31.77,Desiertos de América Latina,Pinnada,Blanca,Herbáceo,Baja,4,Templado
+422,Cactaceae echinopsis,31.69,Altiplano Andino,Palmeada,Sin flor visible,Arbustivo,Alta,4,Tropical
+423,Ficus carica,4.1,Desiertos de América Latina,Ovalada,Blanca,Arbustivo,Baja,6,Desértico
+424,Rosa canina,20.03,Sabana Africana,Pinnada,Rosa,Rastrero,Media,2,Mediterráneo
+425,Salvia officinalis,2.77,Áreas templadas de Asia,Espinosa,Blanca,Arbóreo,Baja,5,Boreal
+426,Salvia officinalis,22.21,Áreas rurales de Europa,Pinnada,Roja,Arbustivo,Baja,1,Desértico
+427,Lilium candidum,17.94,Sabana Africana,Pinnada,Blanca,Trepador,Alta,3,Tropical
+428,Lilium candidum,35.56,Bosques de Europa,Lanceolada,Rosa,Arbóreo,Alta,6,Templado
+429,Eucalyptus globulus,14.36,Zonas montañosas,Pinnada,Violeta,Arbóreo,Alta,2,Mediterráneo
+430,Betula pendula,5.12,Altiplano Andino,Pinnada,Sin flor visible,Herbáceo,Alta,4,Desértico
+431,Betula pendula,6.15,Bosques boreales,Palmeada,Amarilla,Arbustivo,Alta,3,Boreal
+432,Betula pendula,30.58,Zonas costeras del Mediterráneo,Lanceolada,Blanca,Herbáceo,Alta,4,Tropical
+433,Eucalyptus globulus,24.92,Bosques boreales,Ovalada,Naranja,Arbustivo,Media,3,Tropical
+434,Quercus robur,4.49,Sabana Africana,Espinosa,Naranja,Rastrero,Baja,1,Desértico
+435,Salvia officinalis,3.82,Bosques de Europa,Lanceolada,Rosa,Herbáceo,Baja,2,Boreal
+436,Rosa canina,28.19,Sabana Africana,Lanceolada,Amarilla,Herbáceo,Baja,3,Tropical
+437,Cactaceae echinopsis,3.37,Zonas montañosas,Lobulada,Amarilla,Trepador,Media,5,Mediterráneo
+438,Salvia officinalis,32.96,Áreas templadas de Asia,Lanceolada,Roja,Herbáceo,Baja,6,Tropical
+439,Lilium candidum,28.4,Zonas costeras del Mediterráneo,Lobulada,Amarilla,Arbustivo,Media,0,Boreal
+440,Pinus sylvestris,3.71,Zonas montañosas,Espinosa,Naranja,Trepador,Media,5,Templado
+441,Ficus carica,3.85,Altiplano Andino,Pinnada,Violeta,Herbáceo,Media,5,Templado
+442,Eucalyptus globulus,39.47,Altiplano Andino,Palmeada,Rosa,Herbáceo,Baja,6,Desértico
+443,Populus alba,15.28,Sabana Africana,Palmeada,Rosa,Rastrero,Media,0,Boreal
+444,Pinus sylvestris,15.14,Bosques de Europa,Espinosa,Blanca,Herbáceo,Baja,5,Tropical
+445,Cactaceae echinopsis,32.61,Zonas montañosas,Espinosa,Blanca,Arbóreo,Baja,3,Tropical
+446,Betula pendula,37.92,Selva Amazónica,Acicular,Blanca,Trepador,Alta,3,Templado
+447,Lilium candidum,39.45,Bosques de Europa,Pinnada,Naranja,Arbóreo,Alta,3,Templado
+448,Lilium candidum,30.26,Áreas templadas de Asia,Espinosa,Naranja,Trepador,Media,0,Mediterráneo
+449,Lilium candidum,15.36,Altiplano Andino,Lanceolada,Naranja,Rastrero,Media,5,Templado
+450,Betula pendula,3.8,Sabana Africana,Palmeada,Naranja,Herbáceo,Baja,0,Mediterráneo
+451,Populus alba,31.2,Desiertos de América Latina,Ovalada,Naranja,Herbáceo,Media,3,Tropical
+452,Eucalyptus globulus,22.56,Altiplano Andino,Palmeada,Naranja,Herbáceo,Media,6,Mediterráneo
+453,Pinus sylvestris,17.26,Zonas costeras del Mediterráneo,Lobulada,Violeta,Trepador,Baja,5,Mediterráneo
+454,Betula pendula,36.3,Áreas rurales de Europa,Palmeada,Naranja,Herbáceo,Media,5,Desértico
+455,Cactaceae echinopsis,4.89,Desiertos de América Latina,Acicular,Amarilla,Arbóreo,Media,4,Templado
+456,Eucalyptus globulus,19.96,Sabana Africana,Pinnada,Amarilla,Herbáceo,Baja,4,Mediterráneo
+457,Cactaceae echinopsis,0.95,Selva Amazónica,Espinosa,Roja,Rastrero,Baja,1,Tropical
+458,Eucalyptus globulus,19.01,Desiertos de América Latina,Pinnada,Violeta,Arbóreo,Alta,2,Boreal
+459,Populus alba,2.72,Zonas costeras del Mediterráneo,Espinosa,Blanca,Herbáceo,Baja,4,Mediterráneo
+460,Ficus carica,5.19,Bosques de Europa,Palmeada,Sin flor visible,Herbáceo,Alta,0,Templado
+461,Cactaceae echinopsis,5.14,Selva Amazónica,Ovalada,Naranja,Arbustivo,Media,4,Desértico
+462,Betula pendula,26.14,Altiplano Andino,Ovalada,Roja,Trepador,Baja,1,Tropical
+463,Eucalyptus globulus,29.97,Selva Amazónica,Acicular,Sin flor visible,Arbóreo,Baja,5,Desértico
+464,Lilium candidum,23.54,Zonas montañosas,Lobulada,Amarilla,Arbustivo,Baja,1,Boreal
+465,Salvia officinalis,38.51,Zonas costeras del Mediterráneo,Palmeada,Roja,Rastrero,Media,5,Mediterráneo
+466,Lilium candidum,15.31,Desiertos de América Latina,Espinosa,Roja,Trepador,Alta,6,Mediterráneo
+467,Quercus robur,11.79,Zonas montañosas,Palmeada,Rosa,Arbóreo,Media,6,Templado
+468,Ficus carica,34.81,Selva Amazónica,Acicular,Amarilla,Herbáceo,Media,5,Mediterráneo
+469,Ficus carica,9.33,Zonas montañosas,Lanceolada,Amarilla,Arbóreo,Baja,2,Tropical
+470,Lilium candidum,38.55,Bosques boreales,Lanceolada,Violeta,Herbáceo,Alta,4,Boreal
+471,Pinus sylvestris,0.98,Zonas costeras del Mediterráneo,Acicular,Roja,Trepador,Media,0,Desértico
+472,Populus alba,38.81,Áreas templadas de Asia,Espinosa,Naranja,Herbáceo,Baja,0,Boreal
+473,Cactaceae echinopsis,2.2,Bosques de Europa,Pinnada,Amarilla,Rastrero,Media,3,Mediterráneo
+474,Betula pendula,35.7,Selva Amazónica,Acicular,Roja,Herbáceo,Media,5,Desértico
+475,Ficus carica,21.34,Zonas costeras del Mediterráneo,Espinosa,Violeta,Rastrero,Baja,0,Templado
+476,Lilium candidum,39.72,Áreas templadas de Asia,Ovalada,Naranja,Trepador,Baja,2,Boreal
+477,Lilium candidum,3.41,Áreas templadas de Asia,Acicular,Violeta,Trepador,Alta,5,Desértico
+478,Populus alba,22.38,Sabana Africana,Espinosa,Rosa,Arbóreo,Media,2,Desértico
+479,Populus alba,38.79,Zonas montañosas,Acicular,Naranja,Rastrero,Baja,0,Desértico
+480,Rosa canina,21.16,Áreas templadas de Asia,Acicular,Roja,Rastrero,Baja,0,Tropical
+481,Rosa canina,25.36,Bosques boreales,Pinnada,Amarilla,Arbustivo,Alta,3,Boreal
+482,Pinus sylvestris,27.98,Zonas costeras del Mediterráneo,Pinnada,Amarilla,Arbustivo,Alta,0,Desértico
+483,Pinus sylvestris,18.45,Áreas rurales de Europa,Espinosa,Roja,Arbustivo,Baja,5,Boreal
+484,Quercus robur,25.29,Áreas rurales de Europa,Espinosa,Roja,Herbáceo,Alta,6,Desértico
+485,Pinus sylvestris,23.58,Selva Amazónica,Lobulada,Roja,Arbustivo,Baja,5,Templado
+486,Eucalyptus globulus,36.1,Altiplano Andino,Acicular,Blanca,Rastrero,Media,5,Templado
+487,Populus alba,2.3,Zonas montañosas,Lanceolada,Naranja,Herbáceo,Alta,3,Templado
+488,Betula pendula,11.6,Altiplano Andino,Acicular,Amarilla,Trepador,Media,3,Mediterráneo
+489,Eucalyptus globulus,38.04,Áreas templadas de Asia,Acicular,Naranja,Arbóreo,Media,0,Desértico
+490,Cactaceae echinopsis,35.67,Zonas costeras del Mediterráneo,Espinosa,Violeta,Arbustivo,Media,1,Mediterráneo
+491,Lilium candidum,18.5,Selva Amazónica,Acicular,Amarilla,Trepador,Baja,1,Boreal
+492,Pinus sylvestris,25.0,Desiertos de América Latina,Palmeada,Blanca,Rastrero,Media,3,Mediterráneo
+493,Lilium candidum,11.46,Áreas templadas de Asia,Acicular,Roja,Arbóreo,Media,0,Boreal
+494,Ficus carica,7.93,Zonas montañosas,Palmeada,Rosa,Trepador,Media,1,Boreal
+495,Quercus robur,18.82,Áreas rurales de Europa,Pinnada,Roja,Arbóreo,Baja,0,Boreal
+496,Ficus carica,14.46,Sabana Africana,Lanceolada,Roja,Arbustivo,Media,0,Mediterráneo
+497,Quercus robur,23.55,Zonas costeras del Mediterráneo,Espinosa,Blanca,Rastrero,Media,0,Desértico
+498,Rosa canina,3.57,Bosques de Europa,Acicular,Naranja,Arbóreo,Alta,4,Mediterráneo
+499,Lilium candidum,38.99,Altiplano Andino,Palmeada,Amarilla,Trepador,Baja,5,Desértico
+500,Quercus robur,39.46,Selva Amazónica,Palmeada,Roja,Arbustivo,Media,0,Desértico
+501,Salvia officinalis,28.08,Altiplano Andino,Pinnada,Amarilla,Arbustivo,Alta,4,Boreal
+502,Eucalyptus globulus,21.68,Zonas costeras del Mediterráneo,Palmeada,Sin flor visible,Trepador,Baja,3,Mediterráneo
+503,Quercus robur,12.73,Altiplano Andino,Ovalada,Violeta,Trepador,Baja,1,Desértico
+504,Quercus robur,32.64,Zonas costeras del Mediterráneo,Lobulada,Naranja,Arbóreo,Baja,5,Templado
+505,Eucalyptus globulus,27.55,Altiplano Andino,Lanceolada,Amarilla,Herbáceo,Baja,6,Desértico
+506,Lilium candidum,6.92,Bosques boreales,Pinnada,Rosa,Arbustivo,Baja,1,Templado
+507,Lilium candidum,36.48,Desiertos de América Latina,Pinnada,Violeta,Arbóreo,Baja,5,Mediterráneo
+508,Eucalyptus globulus,32.99,Áreas templadas de Asia,Acicular,Rosa,Trepador,Media,6,Mediterráneo
+509,Ficus carica,38.02,Áreas templadas de Asia,Ovalada,Roja,Arbóreo,Media,1,Mediterráneo
+510,Salvia officinalis,29.17,Zonas montañosas,Acicular,Violeta,Trepador,Media,5,Desértico
+511,Betula pendula,24.73,Bosques de Europa,Acicular,Amarilla,Rastrero,Media,1,Tropical
+512,Cactaceae echinopsis,17.02,Bosques de Europa,Espinosa,Violeta,Trepador,Alta,1,Desértico
+513,Salvia officinalis,37.34,Zonas montañosas,Espinosa,Roja,Trepador,Media,6,Desértico
+514,Lilium candidum,34.71,Sabana Africana,Espinosa,Blanca,Trepador,Baja,1,Boreal
+515,Betula pendula,2.29,Áreas templadas de Asia,Ovalada,Naranja,Herbáceo,Media,1,Boreal
+516,Rosa canina,1.54,Sabana Africana,Acicular,Rosa,Trepador,Media,6,Desértico
+517,Pinus sylvestris,15.37,Zonas costeras del Mediterráneo,Lobulada,Roja,Arbustivo,Baja,3,Templado
+518,Quercus robur,32.52,Zonas costeras del Mediterráneo,Lanceolada,Blanca,Arbustivo,Media,0,Boreal
+519,Eucalyptus globulus,39.5,Áreas rurales de Europa,Espinosa,Violeta,Arbóreo,Media,2,Desértico
+520,Eucalyptus globulus,6.44,Altiplano Andino,Espinosa,Violeta,Herbáceo,Media,4,Tropical
+521,Quercus robur,23.97,Bosques de Europa,Pinnada,Roja,Arbóreo,Alta,2,Templado
+522,Pinus sylvestris,15.55,Áreas rurales de Europa,Acicular,Amarilla,Arbustivo,Media,2,Mediterráneo
+523,Cactaceae echinopsis,38.81,Desiertos de América Latina,Acicular,Violeta,Arbustivo,Baja,5,Desértico
+524,Pinus sylvestris,33.76,Zonas montañosas,Ovalada,Amarilla,Rastrero,Baja,0,Desértico
+525,Betula pendula,33.61,Zonas montañosas,Ovalada,Amarilla,Trepador,Media,5,Templado
+526,Pinus sylvestris,19.01,Zonas costeras del Mediterráneo,Espinosa,Naranja,Arbustivo,Media,0,Boreal
+527,Betula pendula,16.89,Áreas templadas de Asia,Acicular,Amarilla,Arbóreo,Media,6,Boreal
+528,Pinus sylvestris,11.3,Sabana Africana,Lobulada,Sin flor visible,Arbóreo,Baja,6,Boreal
+529,Cactaceae echinopsis,2.73,Bosques de Europa,Lanceolada,Naranja,Trepador,Baja,0,Mediterráneo
+530,Cactaceae echinopsis,34.66,Áreas rurales de Europa,Acicular,Blanca,Trepador,Alta,1,Templado
+531,Lilium candidum,32.61,Sabana Africana,Pinnada,Blanca,Rastrero,Alta,3,Templado
+532,Quercus robur,39.99,Áreas rurales de Europa,Acicular,Violeta,Herbáceo,Alta,1,Boreal
+533,Cactaceae echinopsis,39.87,Altiplano Andino,Palmeada,Violeta,Arbóreo,Baja,3,Boreal
+534,Betula pendula,22.44,Desiertos de América Latina,Ovalada,Amarilla,Trepador,Alta,5,Tropical
+535,Cactaceae echinopsis,30.88,Desiertos de América Latina,Pinnada,Naranja,Arbóreo,Media,3,Tropical
+536,Lilium candidum,37.82,Sabana Africana,Lanceolada,Naranja,Trepador,Media,5,Desértico
+537,Eucalyptus globulus,34.06,Sabana Africana,Espinosa,Sin flor visible,Arbustivo,Baja,6,Desértico
+538,Betula pendula,10.27,Sabana Africana,Pinnada,Amarilla,Arbóreo,Alta,2,Templado
+539,Lilium candidum,18.3,Áreas rurales de Europa,Acicular,Sin flor visible,Arbustivo,Media,6,Templado
+540,Ficus carica,5.6,Altiplano Andino,Espinosa,Amarilla,Arbóreo,Baja,6,Mediterráneo
+541,Ficus carica,38.19,Bosques boreales,Acicular,Rosa,Herbáceo,Alta,2,Mediterráneo
+542,Rosa canina,24.44,Sabana Africana,Espinosa,Rosa,Rastrero,Media,3,Tropical
+543,Pinus sylvestris,9.53,Áreas templadas de Asia,Lanceolada,Roja,Arbustivo,Alta,3,Desértico
+544,Quercus robur,27.03,Bosques de Europa,Ovalada,Amarilla,Trepador,Baja,5,Tropical
+545,Populus alba,24.92,Bosques de Europa,Lanceolada,Naranja,Herbáceo,Alta,1,Tropical
+546,Salvia officinalis,14.65,Áreas rurales de Europa,Palmeada,Violeta,Arbóreo,Baja,5,Desértico
+547,Lilium candidum,4.99,Sabana Africana,Lobulada,Blanca,Arbustivo,Alta,1,Mediterráneo
+548,Eucalyptus globulus,27.03,Zonas costeras del Mediterráneo,Ovalada,Roja,Arbóreo,Media,6,Desértico
+549,Salvia officinalis,21.05,Zonas montañosas,Lanceolada,Violeta,Arbóreo,Baja,2,Boreal
+550,Eucalyptus globulus,31.01,Bosques boreales,Palmeada,Rosa,Arbóreo,Baja,6,Boreal
+551,Salvia officinalis,21.05,Áreas templadas de Asia,Lobulada,Amarilla,Rastrero,Baja,0,Boreal
+552,Lilium candidum,34.16,Altiplano Andino,Palmeada,Roja,Rastrero,Alta,3,Templado
+553,Populus alba,22.3,Zonas costeras del Mediterráneo,Acicular,Amarilla,Trepador,Alta,1,Mediterráneo
+554,Salvia officinalis,22.66,Desiertos de América Latina,Acicular,Rosa,Arbustivo,Media,5,Mediterráneo
+555,Lilium candidum,35.13,Zonas costeras del Mediterráneo,Espinosa,Roja,Herbáceo,Baja,2,Templado
+556,Cactaceae echinopsis,16.44,Áreas rurales de Europa,Ovalada,Rosa,Herbáceo,Baja,1,Tropical
+557,Populus alba,5.79,Bosques boreales,Acicular,Sin flor visible,Herbáceo,Alta,5,Boreal
+558,Betula pendula,1.64,Selva Amazónica,Pinnada,Rosa,Arbóreo,Alta,3,Boreal
+559,Eucalyptus globulus,30.33,Selva Amazónica,Palmeada,Naranja,Rastrero,Media,6,Tropical
+560,Ficus carica,25.0,Sabana Africana,Ovalada,Naranja,Arbustivo,Media,3,Desértico
+561,Pinus sylvestris,28.31,Sabana Africana,Pinnada,Amarilla,Arbóreo,Alta,4,Desértico
+562,Ficus carica,8.91,Áreas rurales de Europa,Acicular,Blanca,Rastrero,Baja,0,Mediterráneo
+563,Populus alba,5.89,Altiplano Andino,Espinosa,Rosa,Rastrero,Media,4,Templado
+564,Betula pendula,1.07,Sabana Africana,Lanceolada,Violeta,Arbustivo,Alta,2,Mediterráneo
+565,Eucalyptus globulus,14.35,Zonas montañosas,Espinosa,Naranja,Arbustivo,Alta,1,Desértico
+566,Betula pendula,23.8,Bosques boreales,Pinnada,Blanca,Arbustivo,Baja,2,Tropical
+567,Salvia officinalis,15.99,Áreas rurales de Europa,Lobulada,Sin flor visible,Arbóreo,Alta,6,Mediterráneo
+568,Eucalyptus globulus,17.78,Bosques de Europa,Acicular,Roja,Trepador,Alta,5,Boreal
+569,Salvia officinalis,36.21,Desiertos de América Latina,Pinnada,Roja,Arbustivo,Media,3,Boreal
+570,Lilium candidum,14.26,Áreas rurales de Europa,Lobulada,Naranja,Trepador,Alta,4,Tropical
+571,Populus alba,20.8,Áreas rurales de Europa,Lobulada,Blanca,Arbóreo,Alta,4,Desértico
+572,Lilium candidum,31.45,Selva Amazónica,Palmeada,Naranja,Trepador,Media,6,Boreal
+573,Rosa canina,16.16,Áreas templadas de Asia,Ovalada,Roja,Herbáceo,Baja,4,Boreal
+574,Betula pendula,25.07,Altiplano Andino,Palmeada,Rosa,Trepador,Baja,6,Templado
+575,Salvia officinalis,34.56,Áreas templadas de Asia,Acicular,Blanca,Arbustivo,Media,2,Mediterráneo
+576,Cactaceae echinopsis,38.01,Zonas montañosas,Lobulada,Amarilla,Arbóreo,Media,3,Desértico
+577,Lilium candidum,6.31,Bosques de Europa,Pinnada,Rosa,Arbustivo,Baja,1,Mediterráneo
+578,Rosa canina,37.1,Selva Amazónica,Lanceolada,Rosa,Herbáceo,Baja,5,Desértico
+579,Quercus robur,19.94,Bosques de Europa,Lobulada,Rosa,Arbustivo,Baja,1,Boreal
+580,Ficus carica,10.7,Zonas montañosas,Pinnada,Amarilla,Arbustivo,Baja,2,Templado
+581,Eucalyptus globulus,18.64,Áreas templadas de Asia,Lanceolada,Sin flor visible,Arbustivo,Baja,5,Mediterráneo
+582,Rosa canina,39.21,Áreas rurales de Europa,Palmeada,Violeta,Rastrero,Media,4,Boreal
+583,Populus alba,19.96,Sabana Africana,Palmeada,Naranja,Herbáceo,Alta,0,Desértico
+584,Lilium candidum,13.49,Sabana Africana,Ovalada,Roja,Arbustivo,Baja,2,Mediterráneo
+585,Populus alba,25.52,Zonas costeras del Mediterráneo,Pinnada,Naranja,Arbustivo,Baja,2,Mediterráneo
+586,Ficus carica,9.99,Desiertos de América Latina,Lobulada,Blanca,Arbustivo,Alta,3,Boreal
+587,Cactaceae echinopsis,3.5,Altiplano Andino,Espinosa,Sin flor visible,Arbóreo,Alta,1,Mediterráneo
+588,Betula pendula,5.59,Zonas montañosas,Palmeada,Blanca,Rastrero,Alta,2,Templado
+589,Betula pendula,5.56,Desiertos de América Latina,Palmeada,Naranja,Arbóreo,Alta,2,Templado
+590,Populus alba,6.5,Altiplano Andino,Ovalada,Roja,Rastrero,Alta,4,Boreal
+591,Salvia officinalis,5.98,Desiertos de América Latina,Lanceolada,Amarilla,Arbustivo,Alta,4,Desértico
+592,Cactaceae echinopsis,25.81,Áreas templadas de Asia,Ovalada,Naranja,Herbáceo,Media,5,Boreal
+593,Betula pendula,7.68,Altiplano Andino,Lobulada,Rosa,Trepador,Alta,6,Templado
+594,Cactaceae echinopsis,14.15,Áreas templadas de Asia,Pinnada,Naranja,Trepador,Alta,6,Tropical
+595,Rosa canina,35.92,Áreas rurales de Europa,Acicular,Rosa,Arbustivo,Media,0,Tropical
+596,Cactaceae echinopsis,19.22,Selva Amazónica,Acicular,Amarilla,Arbóreo,Alta,6,Mediterráneo
+597,Pinus sylvestris,26.87,Áreas templadas de Asia,Pinnada,Naranja,Herbáceo,Baja,3,Mediterráneo
+598,Ficus carica,7.31,Sabana Africana,Lanceolada,Sin flor visible,Rastrero,Baja,0,Tropical
+599,Betula pendula,8.1,Desiertos de América Latina,Palmeada,Sin flor visible,Arbustivo,Alta,5,Templado
+600,Cactaceae echinopsis,2.11,Zonas costeras del Mediterráneo,Lanceolada,Blanca,Herbáceo,Media,4,Mediterráneo
+601,Populus alba,7.17,Bosques boreales,Palmeada,Amarilla,Herbáceo,Baja,6,Boreal
+602,Quercus robur,11.5,Altiplano Andino,Palmeada,Sin flor visible,Rastrero,Media,1,Boreal
+603,Pinus sylvestris,7.49,Zonas montañosas,Acicular,Naranja,Herbáceo,Baja,4,Templado
+604,Pinus sylvestris,4.0,Zonas costeras del Mediterráneo,Lanceolada,Amarilla,Arbóreo,Alta,3,Mediterráneo
+605,Salvia officinalis,5.27,Sabana Africana,Ovalada,Roja,Arbóreo,Media,4,Boreal
+606,Cactaceae echinopsis,18.7,Áreas templadas de Asia,Palmeada,Rosa,Arbóreo,Media,3,Mediterráneo
+607,Salvia officinalis,8.65,Selva Amazónica,Espinosa,Naranja,Herbáceo,Media,3,Mediterráneo
+608,Salvia officinalis,14.89,Áreas rurales de Europa,Espinosa,Rosa,Arbóreo,Baja,3,Boreal
+609,Quercus robur,20.38,Bosques boreales,Ovalada,Rosa,Rastrero,Baja,5,Tropical
+610,Rosa canina,27.77,Bosques de Europa,Espinosa,Amarilla,Herbáceo,Baja,3,Boreal
+611,Cactaceae echinopsis,2.05,Zonas costeras del Mediterráneo,Lobulada,Amarilla,Trepador,Alta,3,Templado
+612,Lilium candidum,32.08,Selva Amazónica,Palmeada,Blanca,Herbáceo,Baja,1,Desértico
+613,Betula pendula,25.3,Bosques de Europa,Ovalada,Rosa,Rastrero,Alta,0,Boreal
+614,Salvia officinalis,3.73,Bosques boreales,Lanceolada,Blanca,Trepador,Media,2,Mediterráneo
+615,Ficus carica,35.01,Zonas montañosas,Palmeada,Rosa,Herbáceo,Media,0,Mediterráneo
+616,Eucalyptus globulus,36.87,Zonas montañosas,Ovalada,Blanca,Arbóreo,Alta,3,Boreal
+617,Ficus carica,2.91,Desiertos de América Latina,Acicular,Blanca,Arbustivo,Baja,1,Desértico
+618,Quercus robur,11.44,Bosques boreales,Lanceolada,Roja,Arbustivo,Alta,4,Boreal
+619,Quercus robur,32.34,Bosques boreales,Acicular,Blanca,Arbóreo,Media,1,Desértico
+620,Populus alba,30.06,Bosques de Europa,Palmeada,Amarilla,Arbustivo,Media,3,Desértico
+621,Rosa canina,7.79,Selva Amazónica,Lanceolada,Blanca,Arbustivo,Alta,1,Templado
+622,Betula pendula,8.77,Altiplano Andino,Espinosa,Rosa,Arbóreo,Baja,6,Mediterráneo
+623,Salvia officinalis,15.13,Bosques de Europa,Ovalada,Blanca,Arbóreo,Baja,1,Mediterráneo
+624,Ficus carica,19.64,Áreas rurales de Europa,Palmeada,Sin flor visible,Herbáceo,Alta,3,Desértico
+625,Eucalyptus globulus,24.92,Zonas montañosas,Lobulada,Violeta,Herbáceo,Alta,5,Mediterráneo
+626,Quercus robur,15.07,Zonas montañosas,Lanceolada,Rosa,Arbóreo,Baja,6,Tropical
+627,Quercus robur,18.77,Desiertos de América Latina,Lanceolada,Sin flor visible,Rastrero,Media,1,Desértico
+628,Rosa canina,30.03,Áreas rurales de Europa,Pinnada,Rosa,Arbustivo,Alta,2,Mediterráneo
+629,Eucalyptus globulus,1.95,Zonas montañosas,Palmeada,Amarilla,Herbáceo,Baja,2,Tropical
+630,Eucalyptus globulus,10.47,Bosques de Europa,Palmeada,Violeta,Arbustivo,Baja,1,Templado
+631,Rosa canina,28.68,Áreas rurales de Europa,Acicular,Violeta,Trepador,Media,5,Mediterráneo
+632,Quercus robur,35.86,Bosques de Europa,Pinnada,Amarilla,Arbóreo,Media,4,Tropical
+633,Betula pendula,20.71,Altiplano Andino,Espinosa,Violeta,Rastrero,Media,3,Boreal
+634,Cactaceae echinopsis,21.52,Altiplano Andino,Acicular,Amarilla,Trepador,Media,2,Boreal
+635,Cactaceae echinopsis,4.73,Zonas montañosas,Pinnada,Sin flor visible,Trepador,Media,4,Tropical
+636,Rosa canina,18.17,Zonas montañosas,Acicular,Roja,Trepador,Alta,1,Desértico
+637,Eucalyptus globulus,21.54,Selva Amazónica,Espinosa,Rosa,Arbóreo,Baja,4,Desértico
+638,Salvia officinalis,10.08,Altiplano Andino,Pinnada,Amarilla,Herbáceo,Alta,6,Mediterráneo
+639,Rosa canina,11.14,Zonas costeras del Mediterráneo,Pinnada,Rosa,Arbóreo,Alta,0,Boreal
+640,Betula pendula,15.4,Zonas costeras del Mediterráneo,Lobulada,Sin flor visible,Herbáceo,Alta,2,Desértico
+641,Rosa canina,1.29,Desiertos de América Latina,Acicular,Roja,Trepador,Alta,1,Desértico
+642,Pinus sylvestris,13.22,Altiplano Andino,Acicular,Sin flor visible,Trepador,Alta,3,Boreal
+643,Ficus carica,8.85,Bosques de Europa,Lanceolada,Violeta,Rastrero,Media,5,Templado
+644,Eucalyptus globulus,13.44,Bosques de Europa,Espinosa,Rosa,Herbáceo,Media,6,Desértico
+645,Populus alba,5.23,Sabana Africana,Ovalada,Naranja,Trepador,Baja,1,Tropical
+646,Populus alba,35.68,Áreas rurales de Europa,Lobulada,Roja,Arbustivo,Alta,3,Mediterráneo
+647,Eucalyptus globulus,23.95,Áreas templadas de Asia,Pinnada,Violeta,Rastrero,Baja,5,Desértico
+648,Betula pendula,27.32,Zonas costeras del Mediterráneo,Pinnada,Roja,Arbóreo,Media,5,Desértico
+649,Pinus sylvestris,31.67,Zonas montañosas,Pinnada,Violeta,Rastrero,Media,1,Templado
+650,Pinus sylvestris,20.19,Desiertos de América Latina,Lobulada,Sin flor visible,Arbustivo,Media,6,Tropical
+651,Quercus robur,3.93,Áreas templadas de Asia,Pinnada,Amarilla,Herbáceo,Alta,4,Mediterráneo
+652,Ficus carica,21.72,Bosques boreales,Pinnada,Rosa,Arbóreo,Alta,4,Desértico
+653,Cactaceae echinopsis,23.68,Desiertos de América Latina,Espinosa,Blanca,Arbóreo,Media,5,Mediterráneo
+654,Lilium candidum,29.94,Bosques boreales,Palmeada,Blanca,Herbáceo,Baja,4,Boreal
+655,Betula pendula,17.55,Altiplano Andino,Palmeada,Sin flor visible,Rastrero,Baja,0,Desértico
+656,Lilium candidum,5.54,Bosques boreales,Lanceolada,Rosa,Trepador,Media,5,Desértico
+657,Lilium candidum,11.71,Bosques boreales,Lanceolada,Rosa,Rastrero,Baja,5,Boreal
+658,Eucalyptus globulus,14.84,Selva Amazónica,Pinnada,Sin flor visible,Arbustivo,Media,3,Templado
+659,Populus alba,26.01,Selva Amazónica,Espinosa,Rosa,Trepador,Baja,4,Desértico
+660,Populus alba,23.05,Selva Amazónica,Pinnada,Amarilla,Rastrero,Media,6,Mediterráneo
+661,Cactaceae echinopsis,14.57,Altiplano Andino,Lanceolada,Sin flor visible,Herbáceo,Baja,5,Tropical
+662,Eucalyptus globulus,39.47,Áreas templadas de Asia,Lobulada,Amarilla,Arbustivo,Alta,6,Mediterráneo
+663,Lilium candidum,24.43,Desiertos de América Latina,Lobulada,Rosa,Arbustivo,Media,0,Templado
+664,Salvia officinalis,9.87,Desiertos de América Latina,Ovalada,Sin flor visible,Arbustivo,Media,3,Tropical
+665,Populus alba,4.52,Zonas montañosas,Palmeada,Rosa,Trepador,Baja,1,Mediterráneo
+666,Betula pendula,6.54,Selva Amazónica,Espinosa,Sin flor visible,Arbóreo,Media,6,Mediterráneo
+667,Betula pendula,10.22,Altiplano Andino,Acicular,Rosa,Trepador,Media,5,Boreal
+668,Quercus robur,6.85,Zonas montañosas,Palmeada,Amarilla,Rastrero,Media,0,Templado
+669,Rosa canina,7.87,Áreas rurales de Europa,Acicular,Naranja,Arbóreo,Alta,2,Boreal
+670,Salvia officinalis,11.76,Zonas montañosas,Ovalada,Amarilla,Rastrero,Alta,0,Tropical
+671,Populus alba,7.35,Áreas templadas de Asia,Ovalada,Rosa,Arbóreo,Baja,0,Boreal
+672,Pinus sylvestris,35.92,Zonas costeras del Mediterráneo,Pinnada,Sin flor visible,Trepador,Alta,3,Templado
+673,Populus alba,3.67,Bosques boreales,Lanceolada,Blanca,Arbustivo,Baja,1,Desértico
+674,Quercus robur,21.22,Selva Amazónica,Ovalada,Amarilla,Herbáceo,Alta,2,Desértico
+675,Betula pendula,16.71,Zonas costeras del Mediterráneo,Ovalada,Amarilla,Arbustivo,Baja,4,Tropical
+676,Lilium candidum,39.3,Zonas montañosas,Acicular,Violeta,Trepador,Alta,4,Desértico
+677,Pinus sylvestris,4.93,Altiplano Andino,Lanceolada,Blanca,Arbóreo,Alta,6,Boreal
+678,Eucalyptus globulus,16.22,Bosques boreales,Ovalada,Rosa,Arbustivo,Baja,0,Tropical
+679,Ficus carica,38.79,Desiertos de América Latina,Palmeada,Naranja,Trepador,Media,3,Templado
+680,Lilium candidum,34.69,Bosques de Europa,Ovalada,Sin flor visible,Rastrero,Media,3,Tropical
+681,Ficus carica,32.77,Bosques boreales,Lanceolada,Violeta,Herbáceo,Alta,4,Tropical
+682,Salvia officinalis,10.69,Áreas templadas de Asia,Pinnada,Rosa,Arbustivo,Baja,6,Mediterráneo
+683,Rosa canina,7.25,Áreas templadas de Asia,Espinosa,Roja,Arbóreo,Media,6,Mediterráneo
+684,Pinus sylvestris,26.91,Zonas montañosas,Lanceolada,Naranja,Rastrero,Baja,6,Tropical
+685,Cactaceae echinopsis,37.21,Áreas rurales de Europa,Acicular,Amarilla,Trepador,Media,2,Desértico
+686,Pinus sylvestris,22.49,Áreas templadas de Asia,Espinosa,Roja,Herbáceo,Baja,1,Mediterráneo
+687,Populus alba,23.08,Áreas templadas de Asia,Palmeada,Amarilla,Arbóreo,Alta,2,Templado
+688,Betula pendula,11.56,Altiplano Andino,Lobulada,Amarilla,Trepador,Baja,5,Boreal
+689,Populus alba,30.89,Zonas montañosas,Lanceolada,Roja,Trepador,Media,5,Mediterráneo
+690,Populus alba,7.89,Bosques boreales,Pinnada,Naranja,Arbustivo,Alta,1,Tropical
+691,Salvia officinalis,13.29,Áreas rurales de Europa,Acicular,Roja,Arbustivo,Baja,4,Desértico
+692,Lilium candidum,17.3,Zonas costeras del Mediterráneo,Palmeada,Rosa,Arbóreo,Media,1,Boreal
+693,Cactaceae echinopsis,20.55,Bosques de Europa,Espinosa,Violeta,Trepador,Alta,3,Mediterráneo
+694,Cactaceae echinopsis,10.08,Selva Amazónica,Palmeada,Violeta,Arbustivo,Baja,5,Desértico
+695,Populus alba,5.04,Desiertos de América Latina,Lanceolada,Roja,Herbáceo,Media,0,Desértico
+696,Ficus carica,24.62,Áreas templadas de Asia,Ovalada,Rosa,Herbáceo,Baja,0,Desértico
+697,Salvia officinalis,11.9,Zonas montañosas,Pinnada,Violeta,Trepador,Baja,4,Tropical
+698,Populus alba,23.46,Selva Amazónica,Lanceolada,Rosa,Arbustivo,Alta,3,Templado
+699,Rosa canina,6.6,Desiertos de América Latina,Lobulada,Rosa,Arbóreo,Alta,2,Desértico
+700,Betula pendula,19.51,Desiertos de América Latina,Lanceolada,Amarilla,Arbóreo,Media,3,Boreal
+701,Lilium candidum,21.54,Zonas costeras del Mediterráneo,Espinosa,Violeta,Arbóreo,Alta,0,Mediterráneo
+702,Eucalyptus globulus,2.55,Zonas costeras del Mediterráneo,Espinosa,Violeta,Herbáceo,Media,0,Boreal
+703,Rosa canina,13.8,Zonas costeras del Mediterráneo,Lanceolada,Amarilla,Arbustivo,Baja,5,Tropical
+704,Ficus carica,5.81,Sabana Africana,Espinosa,Roja,Arbustivo,Baja,3,Tropical
+705,Pinus sylvestris,3.0,Sabana Africana,Ovalada,Amarilla,Herbáceo,Media,3,Boreal
+706,Pinus sylvestris,39.6,Desiertos de América Latina,Palmeada,Violeta,Arbóreo,Baja,0,Templado
+707,Rosa canina,13.23,Zonas costeras del Mediterráneo,Lanceolada,Violeta,Arbóreo,Alta,2,Tropical
+708,Populus alba,32.49,Altiplano Andino,Pinnada,Naranja,Trepador,Baja,4,Tropical
+709,Eucalyptus globulus,10.56,Áreas templadas de Asia,Ovalada,Roja,Rastrero,Alta,6,Boreal
+710,Quercus robur,27.42,Selva Amazónica,Palmeada,Amarilla,Arbustivo,Media,4,Tropical
+711,Quercus robur,30.53,Selva Amazónica,Pinnada,Sin flor visible,Arbustivo,Media,3,Templado
+712,Ficus carica,24.03,Sabana Africana,Pinnada,Sin flor visible,Arbustivo,Baja,4,Templado
+713,Populus alba,19.13,Desiertos de América Latina,Pinnada,Roja,Rastrero,Baja,0,Templado
+714,Cactaceae echinopsis,16.77,Zonas montañosas,Palmeada,Amarilla,Trepador,Alta,0,Mediterráneo
+715,Cactaceae echinopsis,14.28,Bosques boreales,Ovalada,Amarilla,Rastrero,Alta,3,Templado
+716,Lilium candidum,37.22,Bosques boreales,Pinnada,Rosa,Arbóreo,Baja,3,Templado
+717,Eucalyptus globulus,33.31,Sabana Africana,Pinnada,Violeta,Arbóreo,Baja,6,Mediterráneo
+718,Eucalyptus globulus,38.62,Zonas montañosas,Acicular,Blanca,Arbustivo,Media,6,Desértico
+719,Pinus sylvestris,5.41,Sabana Africana,Lanceolada,Naranja,Herbáceo,Media,5,Tropical
+720,Salvia officinalis,29.37,Bosques boreales,Palmeada,Roja,Arbustivo,Media,3,Templado
+721,Ficus carica,37.56,Zonas montañosas,Palmeada,Blanca,Herbáceo,Baja,2,Tropical
+722,Quercus robur,7.66,Zonas costeras del Mediterráneo,Espinosa,Blanca,Rastrero,Baja,4,Boreal
+723,Ficus carica,3.13,Desiertos de América Latina,Palmeada,Roja,Arbóreo,Baja,3,Tropical
+724,Cactaceae echinopsis,29.77,Selva Amazónica,Ovalada,Amarilla,Herbáceo,Media,1,Mediterráneo
+725,Cactaceae echinopsis,23.19,Altiplano Andino,Palmeada,Roja,Rastrero,Baja,5,Tropical
+726,Rosa canina,33.75,Áreas rurales de Europa,Acicular,Blanca,Arbóreo,Alta,1,Tropical
+727,Lilium candidum,6.02,Desiertos de América Latina,Lanceolada,Violeta,Herbáceo,Baja,0,Tropical
+728,Eucalyptus globulus,31.91,Zonas costeras del Mediterráneo,Lanceolada,Naranja,Arbustivo,Baja,6,Desértico
+729,Betula pendula,8.46,Bosques boreales,Palmeada,Naranja,Arbustivo,Baja,4,Desértico
+730,Ficus carica,6.96,Zonas costeras del Mediterráneo,Pinnada,Violeta,Arbustivo,Baja,3,Boreal
+731,Cactaceae echinopsis,6.99,Sabana Africana,Lobulada,Violeta,Rastrero,Baja,1,Mediterráneo
+732,Salvia officinalis,32.68,Zonas montañosas,Lobulada,Amarilla,Arbustivo,Alta,4,Tropical
+733,Pinus sylvestris,26.78,Selva Amazónica,Pinnada,Sin flor visible,Trepador,Alta,0,Tropical
+734,Quercus robur,21.16,Áreas templadas de Asia,Pinnada,Roja,Arbóreo,Baja,6,Tropical
+735,Lilium candidum,14.67,Sabana Africana,Pinnada,Naranja,Rastrero,Media,2,Tropical
+736,Salvia officinalis,35.15,Desiertos de América Latina,Ovalada,Violeta,Arbustivo,Baja,5,Desértico
+737,Lilium candidum,16.0,Sabana Africana,Lobulada,Roja,Arbóreo,Baja,4,Boreal
+738,Rosa canina,32.76,Desiertos de América Latina,Pinnada,Naranja,Herbáceo,Baja,4,Templado
+739,Betula pendula,17.85,Áreas templadas de Asia,Ovalada,Violeta,Arbustivo,Media,2,Mediterráneo
+740,Cactaceae echinopsis,15.39,Bosques de Europa,Espinosa,Naranja,Arbóreo,Media,4,Tropical
+741,Pinus sylvestris,18.78,Selva Amazónica,Ovalada,Amarilla,Trepador,Media,0,Boreal
+742,Salvia officinalis,12.4,Altiplano Andino,Lobulada,Sin flor visible,Herbáceo,Alta,0,Templado
+743,Lilium candidum,30.03,Altiplano Andino,Palmeada,Sin flor visible,Trepador,Media,2,Boreal
+744,Eucalyptus globulus,20.36,Áreas rurales de Europa,Espinosa,Violeta,Arbóreo,Alta,5,Desértico
+745,Rosa canina,9.67,Zonas costeras del Mediterráneo,Lobulada,Naranja,Trepador,Alta,3,Templado
+746,Eucalyptus globulus,36.03,Bosques de Europa,Ovalada,Amarilla,Arbóreo,Media,1,Boreal
+747,Pinus sylvestris,15.66,Altiplano Andino,Acicular,Rosa,Arbóreo,Media,3,Desértico
+748,Salvia officinalis,21.97,Sabana Africana,Lanceolada,Roja,Trepador,Media,4,Boreal
+749,Rosa canina,36.31,Zonas costeras del Mediterráneo,Lobulada,Roja,Arbóreo,Alta,1,Boreal
+750,Salvia officinalis,25.16,Bosques de Europa,Pinnada,Blanca,Arbustivo,Baja,2,Templado
+751,Cactaceae echinopsis,5.12,Zonas montañosas,Ovalada,Amarilla,Arbóreo,Media,2,Desértico
+752,Populus alba,37.62,Zonas montañosas,Pinnada,Naranja,Rastrero,Media,5,Tropical
+753,Rosa canina,25.29,Zonas costeras del Mediterráneo,Pinnada,Blanca,Arbóreo,Media,1,Mediterráneo
+754,Eucalyptus globulus,13.73,Desiertos de América Latina,Pinnada,Violeta,Rastrero,Alta,0,Templado
+755,Pinus sylvestris,6.0,Desiertos de América Latina,Pinnada,Naranja,Arbóreo,Alta,1,Desértico
+756,Betula pendula,31.86,Sabana Africana,Pinnada,Blanca,Arbóreo,Baja,4,Boreal
+757,Cactaceae echinopsis,24.99,Bosques de Europa,Espinosa,Sin flor visible,Trepador,Media,0,Desértico
+758,Populus alba,21.57,Bosques de Europa,Lobulada,Roja,Arbustivo,Alta,6,Mediterráneo
+759,Betula pendula,35.81,Zonas costeras del Mediterráneo,Lobulada,Naranja,Arbustivo,Baja,6,Mediterráneo
+760,Quercus robur,31.65,Bosques boreales,Lanceolada,Blanca,Herbáceo,Media,6,Tropical
+761,Cactaceae echinopsis,6.49,Zonas montañosas,Ovalada,Sin flor visible,Trepador,Alta,2,Tropical
+762,Pinus sylvestris,12.81,Bosques de Europa,Acicular,Amarilla,Trepador,Media,1,Mediterráneo
+763,Lilium candidum,10.32,Zonas costeras del Mediterráneo,Espinosa,Blanca,Arbustivo,Media,6,Templado
+764,Rosa canina,29.89,Áreas templadas de Asia,Ovalada,Violeta,Trepador,Alta,3,Templado
+765,Salvia officinalis,1.82,Áreas rurales de Europa,Espinosa,Violeta,Arbustivo,Alta,5,Boreal
+766,Pinus sylvestris,23.01,Áreas templadas de Asia,Lobulada,Violeta,Trepador,Alta,3,Tropical
+767,Rosa canina,30.62,Selva Amazónica,Pinnada,Naranja,Arbóreo,Media,6,Boreal
+768,Betula pendula,35.13,Sabana Africana,Lanceolada,Roja,Arbustivo,Media,5,Tropical
+769,Salvia officinalis,14.01,Bosques de Europa,Lanceolada,Blanca,Arbustivo,Baja,4,Mediterráneo
+770,Ficus carica,32.94,Selva Amazónica,Palmeada,Amarilla,Rastrero,Media,3,Templado
+771,Eucalyptus globulus,4.87,Altiplano Andino,Acicular,Blanca,Trepador,Alta,1,Templado
+772,Quercus robur,33.93,Selva Amazónica,Lanceolada,Roja,Trepador,Media,1,Mediterráneo
+773,Cactaceae echinopsis,5.54,Zonas costeras del Mediterráneo,Pinnada,Sin flor visible,Arbustivo,Baja,3,Boreal
+774,Pinus sylvestris,16.19,Bosques de Europa,Lobulada,Roja,Arbóreo,Baja,6,Boreal
+775,Quercus robur,31.99,Áreas rurales de Europa,Acicular,Violeta,Arbóreo,Alta,1,Desértico
+776,Lilium candidum,6.42,Zonas costeras del Mediterráneo,Ovalada,Naranja,Arbóreo,Alta,4,Tropical
+777,Rosa canina,9.56,Zonas costeras del Mediterráneo,Pinnada,Sin flor visible,Trepador,Baja,0,Boreal
+778,Rosa canina,29.03,Sabana Africana,Pinnada,Naranja,Rastrero,Baja,6,Mediterráneo
+779,Pinus sylvestris,28.94,Sabana Africana,Lanceolada,Violeta,Arbustivo,Baja,4,Boreal
+780,Populus alba,25.83,Zonas montañosas,Acicular,Rosa,Herbáceo,Alta,5,Templado
+781,Populus alba,27.91,Zonas montañosas,Lobulada,Roja,Rastrero,Baja,4,Tropical
+782,Ficus carica,21.94,Desiertos de América Latina,Palmeada,Roja,Herbáceo,Baja,6,Desértico
+783,Eucalyptus globulus,10.45,Bosques boreales,Espinosa,Amarilla,Rastrero,Alta,5,Tropical
+784,Salvia officinalis,14.15,Bosques de Europa,Espinosa,Blanca,Arbóreo,Media,6,Templado
+785,Lilium candidum,7.67,Bosques de Europa,Lobulada,Sin flor visible,Trepador,Media,1,Templado
+786,Quercus robur,36.38,Selva Amazónica,Lobulada,Naranja,Herbáceo,Baja,0,Templado
+787,Populus alba,23.54,Bosques de Europa,Espinosa,Sin flor visible,Rastrero,Media,6,Templado
+788,Ficus carica,16.33,Bosques de Europa,Palmeada,Amarilla,Trepador,Media,6,Mediterráneo
+789,Ficus carica,18.75,Bosques boreales,Acicular,Amarilla,Herbáceo,Media,1,Desértico
+790,Pinus sylvestris,37.92,Altiplano Andino,Espinosa,Naranja,Arbustivo,Media,2,Templado
+791,Lilium candidum,6.56,Zonas montañosas,Lobulada,Blanca,Rastrero,Baja,1,Templado
+792,Betula pendula,23.66,Zonas montañosas,Lanceolada,Naranja,Arbustivo,Media,5,Boreal
+793,Salvia officinalis,20.48,Áreas rurales de Europa,Ovalada,Naranja,Arbóreo,Media,1,Desértico
+794,Eucalyptus globulus,24.65,Bosques de Europa,Palmeada,Violeta,Arbustivo,Alta,1,Tropical
+795,Cactaceae echinopsis,1.22,Bosques boreales,Pinnada,Blanca,Arbustivo,Baja,0,Desértico
+796,Pinus sylvestris,34.95,Zonas montañosas,Palmeada,Roja,Rastrero,Alta,1,Desértico
+797,Salvia officinalis,37.32,Bosques boreales,Lanceolada,Violeta,Arbóreo,Alta,6,Desértico
+798,Cactaceae echinopsis,22.82,Áreas templadas de Asia,Lanceolada,Rosa,Arbustivo,Baja,0,Templado
+799,Cactaceae echinopsis,28.02,Altiplano Andino,Pinnada,Blanca,Trepador,Media,3,Templado
+800,Lilium candidum,36.94,Bosques de Europa,Lobulada,Amarilla,Herbáceo,Alta,2,Mediterráneo
+801,Lilium candidum,28.44,Áreas rurales de Europa,Espinosa,Violeta,Arbustivo,Baja,0,Tropical
+802,Quercus robur,6.53,Selva Amazónica,Acicular,Blanca,Arbóreo,Media,5,Boreal
+803,Ficus carica,23.26,Zonas montañosas,Palmeada,Sin flor visible,Arbustivo,Baja,3,Desértico
+804,Salvia officinalis,24.47,Áreas templadas de Asia,Pinnada,Naranja,Herbáceo,Alta,0,Tropical
+805,Pinus sylvestris,17.25,Bosques boreales,Palmeada,Rosa,Arbóreo,Media,0,Tropical
+806,Rosa canina,29.59,Sabana Africana,Lanceolada,Roja,Rastrero,Media,2,Mediterráneo
+807,Pinus sylvestris,37.41,Zonas costeras del Mediterráneo,Espinosa,Naranja,Arbóreo,Baja,6,Boreal
+808,Quercus robur,37.06,Bosques de Europa,Palmeada,Sin flor visible,Rastrero,Media,5,Desértico
+809,Eucalyptus globulus,18.31,Bosques de Europa,Acicular,Sin flor visible,Arbóreo,Alta,4,Boreal
+810,Ficus carica,4.97,Áreas templadas de Asia,Lanceolada,Rosa,Herbáceo,Alta,4,Mediterráneo
+811,Rosa canina,39.4,Bosques boreales,Acicular,Roja,Herbáceo,Alta,0,Templado
+812,Populus alba,33.64,Desiertos de América Latina,Espinosa,Amarilla,Arbóreo,Baja,1,Tropical
+813,Eucalyptus globulus,5.42,Bosques de Europa,Palmeada,Violeta,Arbustivo,Media,5,Desértico
+814,Lilium candidum,36.87,Desiertos de América Latina,Ovalada,Roja,Herbáceo,Media,3,Templado
+815,Cactaceae echinopsis,34.86,Sabana Africana,Palmeada,Blanca,Rastrero,Media,1,Mediterráneo
+816,Populus alba,20.99,Áreas templadas de Asia,Espinosa,Sin flor visible,Rastrero,Alta,1,Boreal
+817,Pinus sylvestris,23.86,Bosques boreales,Palmeada,Blanca,Trepador,Media,5,Tropical
+818,Pinus sylvestris,16.26,Bosques boreales,Pinnada,Amarilla,Rastrero,Alta,6,Desértico
+819,Lilium candidum,2.66,Altiplano Andino,Palmeada,Blanca,Trepador,Media,0,Templado
+820,Quercus robur,13.74,Zonas costeras del Mediterráneo,Lobulada,Roja,Arbóreo,Alta,0,Templado
+821,Salvia officinalis,32.21,Zonas montañosas,Palmeada,Blanca,Arbóreo,Media,0,Tropical
+822,Populus alba,0.68,Zonas montañosas,Palmeada,Amarilla,Arbóreo,Baja,0,Boreal
+823,Populus alba,13.67,Selva Amazónica,Acicular,Amarilla,Arbustivo,Baja,4,Mediterráneo
+824,Betula pendula,16.23,Áreas rurales de Europa,Ovalada,Amarilla,Arbustivo,Alta,0,Boreal
+825,Eucalyptus globulus,21.73,Áreas templadas de Asia,Acicular,Roja,Trepador,Alta,4,Boreal
+826,Ficus carica,36.83,Sabana Africana,Acicular,Amarilla,Rastrero,Media,4,Boreal
+827,Eucalyptus globulus,14.18,Bosques boreales,Lanceolada,Sin flor visible,Rastrero,Media,6,Tropical
+828,Salvia officinalis,14.2,Zonas costeras del Mediterráneo,Lobulada,Naranja,Arbóreo,Baja,0,Tropical
+829,Pinus sylvestris,29.63,Desiertos de América Latina,Acicular,Amarilla,Herbáceo,Media,2,Mediterráneo
+830,Pinus sylvestris,18.36,Áreas templadas de Asia,Pinnada,Blanca,Arbustivo,Alta,3,Boreal
+831,Pinus sylvestris,9.37,Selva Amazónica,Espinosa,Violeta,Arbustivo,Alta,1,Tropical
+832,Betula pendula,18.37,Áreas templadas de Asia,Pinnada,Blanca,Arbóreo,Alta,4,Mediterráneo
+833,Pinus sylvestris,6.06,Selva Amazónica,Espinosa,Violeta,Arbustivo,Alta,5,Mediterráneo
+834,Salvia officinalis,7.47,Bosques boreales,Palmeada,Blanca,Arbóreo,Alta,5,Boreal
+835,Lilium candidum,20.19,Áreas rurales de Europa,Lanceolada,Roja,Trepador,Baja,3,Desértico
+836,Ficus carica,17.05,Selva Amazónica,Lobulada,Blanca,Rastrero,Baja,5,Boreal
+837,Salvia officinalis,36.64,Bosques boreales,Pinnada,Roja,Herbáceo,Alta,2,Desértico
+838,Ficus carica,14.81,Bosques boreales,Lobulada,Roja,Rastrero,Media,5,Mediterráneo
+839,Salvia officinalis,23.43,Áreas rurales de Europa,Pinnada,Amarilla,Rastrero,Alta,1,Tropical
+840,Pinus sylvestris,25.47,Zonas montañosas,Palmeada,Sin flor visible,Trepador,Baja,1,Templado
+841,Lilium candidum,1.02,Áreas templadas de Asia,Espinosa,Violeta,Arbustivo,Alta,4,Mediterráneo
+842,Populus alba,26.71,Bosques de Europa,Ovalada,Amarilla,Herbáceo,Baja,0,Tropical
+843,Eucalyptus globulus,7.53,Bosques de Europa,Lanceolada,Amarilla,Arbustivo,Baja,6,Mediterráneo
+844,Cactaceae echinopsis,38.46,Desiertos de América Latina,Pinnada,Naranja,Rastrero,Alta,2,Boreal
+845,Lilium candidum,6.37,Desiertos de América Latina,Pinnada,Roja,Arbóreo,Alta,4,Desértico
+846,Populus alba,16.88,Bosques de Europa,Palmeada,Roja,Rastrero,Media,2,Mediterráneo
+847,Quercus robur,3.87,Sabana Africana,Lanceolada,Violeta,Arbustivo,Baja,0,Tropical
+848,Salvia officinalis,39.88,Bosques de Europa,Espinosa,Blanca,Rastrero,Media,5,Boreal
+849,Quercus robur,20.34,Desiertos de América Latina,Espinosa,Blanca,Arbóreo,Alta,5,Templado
+850,Populus alba,24.02,Zonas costeras del Mediterráneo,Pinnada,Amarilla,Trepador,Baja,6,Boreal
+851,Lilium candidum,3.15,Desiertos de América Latina,Ovalada,Rosa,Arbustivo,Media,0,Desértico
+852,Salvia officinalis,30.12,Sabana Africana,Ovalada,Rosa,Rastrero,Media,4,Boreal
+853,Cactaceae echinopsis,8.79,Áreas templadas de Asia,Lobulada,Blanca,Arbustivo,Media,6,Templado
+854,Pinus sylvestris,35.97,Bosques de Europa,Lanceolada,Rosa,Trepador,Alta,0,Tropical
+855,Salvia officinalis,8.6,Áreas rurales de Europa,Lanceolada,Naranja,Rastrero,Alta,3,Mediterráneo
+856,Salvia officinalis,8.03,Zonas costeras del Mediterráneo,Espinosa,Blanca,Rastrero,Alta,1,Desértico
+857,Lilium candidum,1.94,Bosques boreales,Lobulada,Roja,Arbustivo,Baja,6,Templado
+858,Lilium candidum,19.15,Sabana Africana,Palmeada,Amarilla,Arbustivo,Alta,6,Desértico
+859,Populus alba,22.81,Desiertos de América Latina,Lanceolada,Sin flor visible,Arbóreo,Baja,4,Boreal
+860,Rosa canina,3.1,Áreas rurales de Europa,Lobulada,Amarilla,Trepador,Media,2,Desértico
+861,Salvia officinalis,31.13,Selva Amazónica,Lobulada,Blanca,Arbóreo,Media,3,Templado
+862,Eucalyptus globulus,18.4,Zonas montañosas,Pinnada,Naranja,Rastrero,Alta,4,Mediterráneo
+863,Salvia officinalis,21.21,Bosques de Europa,Espinosa,Blanca,Arbustivo,Media,0,Mediterráneo
+864,Populus alba,17.91,Zonas montañosas,Lobulada,Amarilla,Rastrero,Alta,0,Desértico
+865,Ficus carica,16.33,Sabana Africana,Ovalada,Naranja,Rastrero,Baja,0,Tropical
+866,Quercus robur,22.61,Selva Amazónica,Ovalada,Naranja,Herbáceo,Media,0,Desértico
+867,Pinus sylvestris,6.63,Selva Amazónica,Acicular,Naranja,Herbáceo,Alta,2,Boreal
+868,Rosa canina,7.69,Selva Amazónica,Espinosa,Violeta,Rastrero,Media,3,Mediterráneo
+869,Cactaceae echinopsis,34.54,Bosques boreales,Pinnada,Blanca,Arbustivo,Media,5,Mediterráneo
+870,Cactaceae echinopsis,37.87,Sabana Africana,Palmeada,Rosa,Rastrero,Alta,1,Mediterráneo
+871,Cactaceae echinopsis,15.25,Áreas templadas de Asia,Acicular,Rosa,Herbáceo,Media,2,Tropical
+872,Lilium candidum,11.19,Zonas montañosas,Ovalada,Blanca,Arbustivo,Media,2,Tropical
+873,Cactaceae echinopsis,25.94,Áreas templadas de Asia,Pinnada,Blanca,Rastrero,Media,5,Templado
+874,Pinus sylvestris,16.64,Áreas rurales de Europa,Acicular,Violeta,Trepador,Media,5,Desértico
+875,Quercus robur,1.5,Altiplano Andino,Espinosa,Rosa,Trepador,Baja,1,Desértico
+876,Cactaceae echinopsis,6.67,Zonas costeras del Mediterráneo,Pinnada,Blanca,Rastrero,Media,1,Boreal
+877,Salvia officinalis,28.78,Zonas costeras del Mediterráneo,Espinosa,Blanca,Arbustivo,Media,5,Mediterráneo
+878,Salvia officinalis,26.53,Áreas templadas de Asia,Lobulada,Violeta,Rastrero,Alta,0,Tropical
+879,Lilium candidum,1.57,Altiplano Andino,Lanceolada,Violeta,Rastrero,Baja,2,Boreal
+880,Pinus sylvestris,9.27,Altiplano Andino,Lobulada,Amarilla,Herbáceo,Alta,4,Boreal
+881,Quercus robur,9.63,Bosques de Europa,Espinosa,Violeta,Trepador,Alta,1,Tropical
+882,Rosa canina,27.04,Áreas rurales de Europa,Pinnada,Sin flor visible,Herbáceo,Alta,1,Desértico
+883,Populus alba,1.28,Sabana Africana,Ovalada,Rosa,Herbáceo,Baja,5,Mediterráneo
+884,Quercus robur,4.61,Altiplano Andino,Palmeada,Amarilla,Rastrero,Alta,3,Desértico
+885,Populus alba,32.1,Desiertos de América Latina,Ovalada,Sin flor visible,Herbáceo,Alta,4,Boreal
+886,Ficus carica,7.55,Zonas costeras del Mediterráneo,Pinnada,Blanca,Trepador,Alta,4,Mediterráneo
+887,Populus alba,26.28,Desiertos de América Latina,Lobulada,Blanca,Herbáceo,Media,1,Templado
+888,Eucalyptus globulus,9.91,Áreas rurales de Europa,Palmeada,Amarilla,Trepador,Alta,0,Boreal
+889,Salvia officinalis,4.43,Altiplano Andino,Pinnada,Violeta,Herbáceo,Baja,3,Desértico
+890,Pinus sylvestris,10.11,Zonas montañosas,Espinosa,Naranja,Trepador,Baja,4,Desértico
+891,Betula pendula,29.03,Zonas costeras del Mediterráneo,Ovalada,Naranja,Herbáceo,Media,1,Desértico
+892,Lilium candidum,34.3,Bosques de Europa,Espinosa,Blanca,Herbáceo,Baja,4,Tropical
+893,Eucalyptus globulus,33.29,Bosques de Europa,Palmeada,Naranja,Arbustivo,Baja,6,Boreal
+894,Populus alba,16.19,Selva Amazónica,Palmeada,Roja,Trepador,Media,3,Mediterráneo
+895,Cactaceae echinopsis,26.89,Bosques boreales,Ovalada,Amarilla,Trepador,Alta,3,Desértico
+896,Pinus sylvestris,8.6,Altiplano Andino,Espinosa,Sin flor visible,Trepador,Media,6,Desértico
+897,Eucalyptus globulus,12.08,Áreas rurales de Europa,Acicular,Amarilla,Arbóreo,Alta,2,Tropical
+898,Lilium candidum,35.91,Zonas costeras del Mediterráneo,Espinosa,Rosa,Herbáceo,Alta,6,Mediterráneo
+899,Salvia officinalis,1.01,Bosques boreales,Palmeada,Violeta,Trepador,Baja,5,Boreal
+900,Pinus sylvestris,3.88,Áreas rurales de Europa,Espinosa,Violeta,Arbóreo,Media,5,Templado
+901,Lilium candidum,8.71,Áreas templadas de Asia,Pinnada,Amarilla,Arbustivo,Baja,1,Tropical
+902,Ficus carica,1.55,Altiplano Andino,Lobulada,Blanca,Trepador,Baja,3,Boreal
+903,Ficus carica,7.67,Sabana Africana,Acicular,Blanca,Trepador,Alta,2,Templado
+904,Lilium candidum,23.53,Sabana Africana,Lanceolada,Roja,Arbóreo,Baja,2,Desértico
+905,Eucalyptus globulus,17.15,Altiplano Andino,Pinnada,Roja,Herbáceo,Media,4,Desértico
+906,Pinus sylvestris,35.76,Selva Amazónica,Lobulada,Violeta,Arbustivo,Baja,4,Mediterráneo
+907,Eucalyptus globulus,32.79,Selva Amazónica,Lanceolada,Roja,Trepador,Baja,6,Templado
+908,Rosa canina,14.0,Sabana Africana,Ovalada,Sin flor visible,Herbáceo,Alta,2,Desértico
+909,Populus alba,10.75,Zonas montañosas,Lanceolada,Roja,Arbustivo,Media,6,Desértico
+910,Rosa canina,15.5,Zonas costeras del Mediterráneo,Pinnada,Sin flor visible,Rastrero,Baja,6,Mediterráneo
+911,Ficus carica,23.82,Sabana Africana,Espinosa,Roja,Rastrero,Alta,4,Boreal
+912,Salvia officinalis,11.09,Zonas montañosas,Pinnada,Violeta,Arbustivo,Baja,3,Desértico
+913,Quercus robur,25.15,Bosques boreales,Lanceolada,Violeta,Arbóreo,Media,6,Tropical
+914,Populus alba,16.67,Zonas montañosas,Palmeada,Sin flor visible,Arbustivo,Baja,0,Tropical
+915,Ficus carica,22.31,Bosques boreales,Lobulada,Amarilla,Arbustivo,Baja,3,Boreal
+916,Eucalyptus globulus,17.73,Áreas rurales de Europa,Lobulada,Violeta,Arbóreo,Alta,2,Templado
+917,Eucalyptus globulus,12.13,Desiertos de América Latina,Lanceolada,Amarilla,Arbóreo,Baja,2,Mediterráneo
+918,Eucalyptus globulus,37.96,Áreas rurales de Europa,Lobulada,Blanca,Herbáceo,Alta,6,Tropical
+919,Salvia officinalis,30.66,Sabana Africana,Palmeada,Sin flor visible,Herbáceo,Media,3,Tropical
+920,Rosa canina,6.03,Bosques boreales,Pinnada,Naranja,Arbóreo,Baja,4,Boreal
+921,Quercus robur,34.8,Sabana Africana,Lobulada,Violeta,Rastrero,Media,4,Templado
+922,Eucalyptus globulus,19.75,Altiplano Andino,Lanceolada,Rosa,Rastrero,Media,5,Templado
+923,Betula pendula,35.83,Zonas costeras del Mediterráneo,Acicular,Blanca,Arbustivo,Baja,2,Boreal
+924,Populus alba,32.09,Bosques de Europa,Acicular,Amarilla,Trepador,Alta,1,Tropical
+925,Pinus sylvestris,17.3,Sabana Africana,Ovalada,Violeta,Arbustivo,Media,5,Mediterráneo
+926,Betula pendula,1.39,Zonas costeras del Mediterráneo,Lobulada,Sin flor visible,Arbustivo,Media,4,Tropical
+927,Quercus robur,11.11,Zonas montañosas,Pinnada,Naranja,Trepador,Baja,3,Templado
+928,Salvia officinalis,21.89,Áreas rurales de Europa,Lanceolada,Roja,Arbóreo,Baja,4,Tropical
+929,Quercus robur,25.52,Zonas montañosas,Lobulada,Naranja,Rastrero,Baja,3,Mediterráneo
+930,Pinus sylvestris,10.69,Bosques de Europa,Espinosa,Rosa,Arbustivo,Baja,5,Desértico
+931,Populus alba,6.0,Bosques boreales,Palmeada,Amarilla,Trepador,Baja,2,Tropical
+932,Pinus sylvestris,33.48,Altiplano Andino,Lobulada,Blanca,Herbáceo,Baja,4,Boreal
+933,Lilium candidum,39.38,Zonas costeras del Mediterráneo,Lobulada,Naranja,Arbustivo,Alta,6,Desértico
+934,Populus alba,21.26,Altiplano Andino,Acicular,Sin flor visible,Rastrero,Media,3,Boreal
+935,Quercus robur,7.28,Desiertos de América Latina,Palmeada,Rosa,Arbóreo,Alta,2,Boreal
+936,Eucalyptus globulus,11.26,Sabana Africana,Lanceolada,Sin flor visible,Arbustivo,Alta,1,Boreal
+937,Quercus robur,1.23,Bosques boreales,Lobulada,Violeta,Arbustivo,Baja,3,Tropical
+938,Quercus robur,36.61,Desiertos de América Latina,Acicular,Roja,Trepador,Media,5,Templado
+939,Populus alba,5.15,Áreas templadas de Asia,Ovalada,Blanca,Herbáceo,Alta,1,Desértico
+940,Lilium candidum,23.27,Sabana Africana,Palmeada,Sin flor visible,Herbáceo,Baja,1,Mediterráneo
+941,Quercus robur,11.33,Zonas montañosas,Acicular,Amarilla,Arbóreo,Baja,0,Templado
+942,Betula pendula,22.39,Áreas rurales de Europa,Acicular,Violeta,Rastrero,Media,4,Tropical
+943,Ficus carica,26.23,Zonas costeras del Mediterráneo,Pinnada,Violeta,Arbóreo,Alta,3,Boreal
+944,Cactaceae echinopsis,33.27,Bosques de Europa,Acicular,Blanca,Arbustivo,Alta,1,Mediterráneo
+945,Cactaceae echinopsis,8.65,Bosques de Europa,Pinnada,Violeta,Arbustivo,Alta,0,Desértico
+946,Quercus robur,0.93,Zonas montañosas,Lobulada,Amarilla,Herbáceo,Baja,5,Templado
+947,Betula pendula,5.91,Selva Amazónica,Lobulada,Sin flor visible,Rastrero,Media,2,Templado
+948,Eucalyptus globulus,36.05,Bosques de Europa,Ovalada,Blanca,Trepador,Media,6,Mediterráneo
+949,Salvia officinalis,35.02,Zonas costeras del Mediterráneo,Espinosa,Violeta,Rastrero,Alta,6,Tropical
+950,Salvia officinalis,24.1,Zonas montañosas,Espinosa,Violeta,Arbustivo,Baja,3,Desértico
+951,Populus alba,24.22,Bosques boreales,Espinosa,Amarilla,Trepador,Alta,1,Mediterráneo
+952,Cactaceae echinopsis,26.77,Bosques de Europa,Pinnada,Roja,Rastrero,Media,6,Boreal
+953,Quercus robur,7.43,Altiplano Andino,Palmeada,Roja,Rastrero,Baja,4,Desértico
+954,Salvia officinalis,36.62,Zonas montañosas,Palmeada,Naranja,Trepador,Alta,6,Templado
+955,Quercus robur,17.04,Zonas costeras del Mediterráneo,Ovalada,Violeta,Arbustivo,Alta,6,Mediterráneo
+956,Populus alba,15.63,Altiplano Andino,Palmeada,Sin flor visible,Rastrero,Baja,6,Templado
+957,Cactaceae echinopsis,21.0,Sabana Africana,Espinosa,Blanca,Trepador,Media,0,Templado
+958,Pinus sylvestris,2.36,Sabana Africana,Espinosa,Violeta,Arbustivo,Baja,1,Templado
+959,Ficus carica,7.07,Bosques de Europa,Acicular,Rosa,Trepador,Alta,4,Tropical
+960,Ficus carica,29.65,Altiplano Andino,Palmeada,Blanca,Trepador,Alta,1,Templado
+961,Salvia officinalis,3.77,Áreas rurales de Europa,Lobulada,Naranja,Rastrero,Alta,3,Boreal
+962,Ficus carica,24.32,Sabana Africana,Lobulada,Roja,Arbustivo,Alta,3,Boreal
+963,Pinus sylvestris,10.19,Áreas rurales de Europa,Acicular,Violeta,Rastrero,Media,3,Desértico
+964,Quercus robur,15.88,Bosques boreales,Acicular,Amarilla,Arbóreo,Media,5,Templado
+965,Populus alba,11.9,Zonas montañosas,Acicular,Rosa,Arbóreo,Alta,6,Templado
+966,Pinus sylvestris,14.55,Desiertos de América Latina,Lobulada,Violeta,Arbustivo,Media,5,Mediterráneo
+967,Populus alba,28.9,Zonas costeras del Mediterráneo,Espinosa,Naranja,Trepador,Media,0,Tropical
+968,Populus alba,12.24,Zonas montañosas,Acicular,Sin flor visible,Rastrero,Media,3,Desértico
+969,Cactaceae echinopsis,22.87,Zonas costeras del Mediterráneo,Ovalada,Rosa,Rastrero,Alta,4,Templado
+970,Quercus robur,19.3,Altiplano Andino,Pinnada,Naranja,Arbustivo,Baja,1,Mediterráneo
+971,Betula pendula,26.72,Bosques boreales,Acicular,Violeta,Arbustivo,Baja,6,Tropical
+972,Ficus carica,37.5,Áreas templadas de Asia,Pinnada,Sin flor visible,Arbóreo,Baja,2,Desértico
+973,Betula pendula,29.44,Bosques de Europa,Lanceolada,Rosa,Herbáceo,Alta,4,Desértico
+974,Cactaceae echinopsis,8.99,Zonas costeras del Mediterráneo,Acicular,Sin flor visible,Arbustivo,Media,6,Templado
+975,Populus alba,1.73,Zonas costeras del Mediterráneo,Lobulada,Sin flor visible,Herbáceo,Media,5,Desértico
+976,Salvia officinalis,10.86,Altiplano Andino,Palmeada,Rosa,Arbustivo,Alta,5,Mediterráneo
+977,Ficus carica,24.01,Áreas rurales de Europa,Acicular,Rosa,Trepador,Alta,4,Desértico
+978,Ficus carica,2.53,Zonas montañosas,Palmeada,Sin flor visible,Trepador,Baja,5,Boreal
+979,Quercus robur,20.11,Áreas templadas de Asia,Lanceolada,Naranja,Arbóreo,Baja,3,Mediterráneo
+980,Lilium candidum,24.08,Selva Amazónica,Ovalada,Roja,Arbóreo,Alta,0,Tropical
+981,Rosa canina,13.7,Bosques de Europa,Palmeada,Rosa,Herbáceo,Baja,1,Tropical
+982,Rosa canina,30.95,Desiertos de América Latina,Pinnada,Violeta,Arbustivo,Media,0,Templado
+983,Rosa canina,4.71,Selva Amazónica,Espinosa,Blanca,Rastrero,Alta,6,Templado
+984,Lilium candidum,3.47,Zonas montañosas,Acicular,Amarilla,Arbóreo,Alta,1,Boreal
+985,Quercus robur,29.26,Bosques de Europa,Lanceolada,Sin flor visible,Rastrero,Media,1,Tropical
+986,Lilium candidum,20.07,Zonas costeras del Mediterráneo,Lanceolada,Sin flor visible,Rastrero,Media,0,Tropical
+987,Rosa canina,27.69,Desiertos de América Latina,Palmeada,Amarilla,Arbustivo,Media,4,Tropical
+988,Cactaceae echinopsis,17.68,Áreas rurales de Europa,Ovalada,Roja,Herbáceo,Baja,1,Tropical
+989,Pinus sylvestris,10.23,Áreas templadas de Asia,Lobulada,Amarilla,Arbustivo,Alta,0,Desértico
+990,Populus alba,32.85,Áreas rurales de Europa,Acicular,Rosa,Arbóreo,Baja,1,Mediterráneo
+991,Lilium candidum,32.08,Bosques boreales,Lanceolada,Amarilla,Rastrero,Media,2,Mediterráneo
+992,Quercus robur,27.94,Altiplano Andino,Ovalada,Sin flor visible,Arbustivo,Baja,4,Boreal
+993,Quercus robur,11.25,Bosques de Europa,Espinosa,Amarilla,Arbustivo,Media,3,Desértico
+994,Betula pendula,23.81,Áreas rurales de Europa,Lanceolada,Blanca,Arbustivo,Baja,1,Tropical
+995,Pinus sylvestris,14.76,Selva Amazónica,Ovalada,Violeta,Arbóreo,Baja,2,Tropical
+996,Salvia officinalis,4.12,Altiplano Andino,Lobulada,Rosa,Herbáceo,Media,3,Templado
+997,Ficus carica,36.73,Áreas rurales de Europa,Lobulada,Amarilla,Arbustivo,Baja,3,Templado
+998,Rosa canina,5.9,Sabana Africana,Lanceolada,Sin flor visible,Arbóreo,Alta,6,Boreal
+999,Salvia officinalis,38.03,Bosques boreales,Pinnada,Naranja,Rastrero,Baja,1,Tropical
+1000,Betula pendula,18.12,Zonas montañosas,Lanceolada,Violeta,Trepador,Baja,0,Boreal
