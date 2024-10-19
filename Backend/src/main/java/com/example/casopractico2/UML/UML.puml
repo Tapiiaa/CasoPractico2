@@ -1,0 +1,181 @@
+@startuml
+
+!define Service <<Service>>
+!define RestController <<RestController>>
+
+package "com.example.casopractico2" {
+
+  package concurrency {
+    class ConcurrentDataProcessor {
+      + void processConcurrently()
+    }
+
+    class DataStreamManager {
+      + void manageStreams()
+    }
+
+    class DataSynchronizationManager {
+      + void synchronizeData()
+    }
+
+    class ForkJoinTask {
+      + void executeTask()
+    }
+  }
+
+  package config {
+    class AsyncConfig {
+      + configureAsyncTasks()
+    }
+
+    class SystemConfig {
+      + configureSystem()
+    }
+
+    class ThreadConfig {
+      + configureThreads()
+    }
+  }
+
+  package controller {
+    class BiochemicalDataController <<RestController>> {
+      + List<BiochemicalAttributes> getBiochemicalData()
+      + String processBiochemicalData(BiochemicalAttributes biochemicalAttributes)
+    }
+
+    class BiologicalDataController <<RestController>> {
+      + List<BiologicalAttributes> getBiologicalData()
+      + String processBiologicalData(BiologicalAttributes biologicalAttributes)
+    }
+
+    class CSVController <<RestController>> {
+      + List<String[]> getCSVData()
+    }
+
+    class PhysicalDataController <<RestController>> {
+      + List<PhysicalAttributes> getPhysicalData()
+      + String processPhysicalData(PhysicalAttributes physicalAttributes)
+    }
+  }
+
+  package model {
+    class AllAttributes {
+      - List<PhysicalAttributes> physicalAttributes
+      - List<BiologicalAttributes> biologicalAttributes
+      - List<BiochemicalAttributes> biochemicalAttributes
+
+      + AllAttributes()
+      + getPhysicalAttributes()
+      + getBiologicalAttributes()
+      + getBiochemicalAttributes()
+    }
+
+    class BiochemicalAttributes {
+      - String chemicalType
+      - double concentration
+
+      + BiochemicalAttributes()
+      + BiochemicalAttributes(String chemicalType, double concentration)
+      + String getChemicalType()
+      + void setChemicalType(String chemicalType)
+      + double getConcentration()
+      + void setConcentration(double concentration)
+    }
+
+    class BiologicalAttributes {
+      - String species
+      - String leafType
+      - String flowerColor
+      - String growthHabit
+
+      + BiologicalAttributes()
+      + BiologicalAttributes(String species, String leafType, String flowerColor, String growthHabit)
+      + String getSpecies()
+      + void setSpecies(String species)
+      + String getLeafType()
+      + void setLeafType(String leafType)
+      + String getFlowerColor()
+      + void setFlowerColor(String flowerColor)
+      + String getGrowthHabit()
+      + void setGrowthHabit(String growthHabit)
+    }
+
+    class PhysicalAttributes {
+      - double height
+      - String locationZone
+
+      + PhysicalAttributes()
+      + PhysicalAttributes(double height, String locationZone)
+      + double getHeight()
+      + void setHeight(double height)
+      + String getLocationZone()
+      + void setLocationZone(String locationZone)
+    }
+  }
+
+  package service.impl {
+    class AlertManager {
+      + void sendAlert(String message)
+    }
+
+    class BiochemicalDataProcessor {
+      + void processBiochemicalAttributes(BiochemicalAttributes biochemicalAttributes)
+      + List<BiochemicalAttributes> getProcessedData()
+    }
+
+    class BiologicalDataProcessor {
+      + void processBiologicalAttributes(BiologicalAttributes biologicalAttributes)
+      + List<BiologicalAttributes> getProcessedData()
+    }
+
+    class CSVService {
+      + List<String[]> importCSVAsync(String filePath)
+    }
+
+    class DataProcessingService {
+      + void processAllData(String filePath)
+    }
+
+    class PhysicalDataProcessor {
+      + void processPhysicalAttributes(PhysicalAttributes physicalAttributes)
+      + List<PhysicalAttributes> getProcessedData()
+    }
+  }
+
+  package service.interfaces {
+    interface AlertListener {
+      + void onAlertReceived(String message)
+    }
+
+    interface AlertService {
+      + void sendAlert(String message)
+    }
+
+    interface DataProcessor {
+      + void processData()
+    }
+
+    interface DataStream {
+      + void streamData()
+    }
+  }
+
+  ConcurrentDataProcessor --> DataStreamManager : uses
+  DataStreamManager --> DataSynchronizationManager : uses
+  PhysicalDataProcessor -down-> PhysicalAttributes : processes *
+  BiologicalDataProcessor -down-> BiologicalAttributes : processes *
+  BiochemicalDataProcessor -down-> BiochemicalAttributes : processes *
+  AllAttributes --> PhysicalAttributes : contains
+  AllAttributes --> BiologicalAttributes : contains
+  AllAttributes --> BiochemicalAttributes : contains
+  PhysicalDataController --> PhysicalDataProcessor : uses
+  BiologicalDataController --> BiologicalDataProcessor : uses
+  BiochemicalDataController --> BiochemicalDataProcessor : uses
+  CSVController --> CSVService : uses
+  DataProcessingService --> PhysicalDataProcessor : uses
+  DataProcessingService --> BiologicalDataProcessor : uses
+  DataProcessingService --> BiochemicalDataProcessor : uses
+  DataProcessingService --> CSVService : uses
+}
+
+@enduml
