@@ -12,7 +12,6 @@ public class ThreadConfig {
 
     @Bean(name = "customExecutorService")
     @Primary
-
     public ExecutorService taskExecutor() {
         return Executors.newFixedThreadPool(8);  // Pool de hilos fijo
     }

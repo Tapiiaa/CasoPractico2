@@ -1,6 +1,10 @@
 package com.example.casopractico2.service.impl;
 
-import com.example.casopractico2.model.BiologicalSample;
+import com.example.casopractico2.model.AllAttributes;
+import com.example.casopractico2.model.BiologicalAttributes;
+import com.example.casopractico2.model.PhysicalAttributes;
+import com.example.casopractico2.model.BiochemicalAttributes;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,33 +25,34 @@ public class DataProcessingService {
 
     public void processBiologicalDataWithSemaphore(String filePath) {
         // Leer los datos del CSV
-        List<BiologicalSample> samples = csvService.importCSVAsync(filePath).join();  // Esperamos que termine la tarea asíncrona
+        List<String[]> samples = csvService.importCSVAsync(filePath).join();  // Cambiado para obtener listas de arreglos de strings
 
-        for (BiologicalSample sample : samples) {
+        for (String[] csvRow : samples) {
             executorService.submit(() -> {
                 long startTime = System.currentTimeMillis();  // Tiempo inicial
                 try {
                     semaphore.acquire();  // Solicita permiso para acceder
-                    System.out.println("Processing Sample ID " + sample.getSampleId() + " on thread " + Thread.currentThread().getName());
-                    processSample(sample);  // Procesar la muestra
+                    System.out.println("Processing Sample ID " + csvRow[0] + " on thread " + Thread.currentThread().getName());
+
+                    // Procesar la fila del CSV y crear objetos de atributos
+                    PhysicalAttributes physical = new PhysicalAttributes(Double.parseDouble(csvRow[2]), csvRow[3]);  // Altura y ubicación
+                    BiologicalAttributes biological = new BiologicalAttributes(csvRow[1], csvRow[4], csvRow[5], csvRow[6]);  // Especie, tipo de hoja, color de flor, hábito de crecimiento
+                    BiochemicalAttributes biochemical = new BiochemicalAttributes(csvRow[7], Integer.parseInt(csvRow[8]), csvRow[9]);  // Resistencia a la sequía, frecuencia de riego, zona climática ideal
+
+                    // Crear un objeto CompleteSample
+                    AllAttributes allData = new AllAttributes(physical, biological, biochemical);
+
+                    // Imprimir todos los datos juntos
+                    System.out.println(allData);
+
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 } finally {
                     semaphore.release();  // Libera el permiso al finalizar
                     long endTime = System.currentTimeMillis();  // Tiempo final
-                    System.out.println("Sample " + sample.getSampleId() + " completed in " + (endTime - startTime) + " ms.");
+                    System.out.println("Sample ID " + csvRow[0] + " completed in " + (endTime - startTime) + " ms.");
                 }
             });
-        }
-    }
-
-    private void processSample(BiologicalSample sample) {
-        // Aquí podrías realizar el procesamiento real de la muestra, por ejemplo, análisis de datos
-        System.out.println("Processing biological sample: " + sample.toString());
-        try {
-            Thread.sleep(1000);  // Simula tiempo de procesamiento
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
         }
     }
 }
