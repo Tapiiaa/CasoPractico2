@@ -1,4 +1,4 @@
-package com.example.casopractico2.service;
+package com.example.casopractico2.service.impl;
 
 import com.example.casopractico2.model.BiologicalSample;
 import org.springframework.scheduling.annotation.Async;
