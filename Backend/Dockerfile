@@ -1,5 +1,6 @@
-# Usa una imagen base de OpenJDK 11
-FROM openjdk:11-jre-slim
+# Usa una imagen base de OpenJDK 17
+FROM openjdk:17-slim
+
 
 # Especifica el autor del Dockerfile
 LABEL authors="patrik"
@@ -8,7 +9,7 @@ LABEL authors="patrik"
 WORKDIR /app
 
 # Copia el archivo JAR generado en el directorio actual a la carpeta del contenedor
-COPY target/backend-*.jar app.jar
+COPY target/CasoPractico2-0.0.1-SNAPSHOT.jar app.jar
 
 # Expone el puerto en el que correrá la aplicación Spring Boot
 EXPOSE 8080
