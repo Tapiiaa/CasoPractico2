@@ -23,9 +23,11 @@ public class DataProcessingService {
         this.csvService = csvService;
     }
 
-    public void processBiologicalDataWithSemaphore(String filePath) {
+    public void processDataWithSemaphore(String filePath) {
         // Leer los datos del CSV
         List<String[]> samples = csvService.importCSVAsync(filePath).join();  // Cambiado para obtener listas de arreglos de strings
+
+        System.out.println("CSV loaded. Number of samples: " + samples.size());
 
         for (String[] csvRow : samples) {
             executorService.submit(() -> {
@@ -48,6 +50,7 @@ public class DataProcessingService {
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 } finally {
+                	
                     semaphore.release();  // Libera el permiso al finalizar
                     long endTime = System.currentTimeMillis();  // Tiempo final
                     System.out.println("Sample ID " + csvRow[0] + " completed in " + (endTime - startTime) + " ms.");
@@ -55,4 +58,7 @@ public class DataProcessingService {
             });
         }
     }
+    
+    
+    
 }

@@ -15,9 +15,9 @@ public class CSVController {
         this.dataProcessingService = dataProcessingService;
     }
 
-    @GetMapping("/process-data")
-    public String processBiologicalData(@RequestParam String filePath) {
-        dataProcessingService.processBiologicalDataWithSemaphore(filePath);
+    @GetMapping("/process-biological-data")
+    public String processData(@RequestParam String filePath) {
+        dataProcessingService.processDataWithSemaphore(filePath);
         return "Data processing started for file: " + filePath;
     }
 }
