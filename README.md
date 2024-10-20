@@ -1,5 +1,5 @@
 # Proyecto: CasoPráctico2 - Análisis de Datos Biológicos
-### Enlace al reositorio: https://github.com/Tapiiaa/CasoPractico2
+### Enlace al repositorio: https://github.com/Tapiiaa/CasoPractico2
 ## Propósito
 Este proyecto es un sistema para procesar datos biológicos desde un archivo CSV utilizando hilos, visualizar el rendimiento del sistema y presentar eventos procesados por tipo de dato (físicos, biológicos, bioquímicos o de todo tipo). El sistema incluye un backend desarrollado en Spring Boot y una interfaz web que muestra los resultados del procesamiento de datos.
 
