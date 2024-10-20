@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 public class BiologicalDataController {
-    private final BiologicalDataProcessor biologicalDataProcessor;
+    private final BiologicalDataProcessor biologicalDataProcessor;  
     public BiologicalDataController(BiologicalDataProcessor biologicalDataProcessor) {
         this.biologicalDataProcessor = biologicalDataProcessor;
     }

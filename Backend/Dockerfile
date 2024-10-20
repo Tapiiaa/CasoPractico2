@@ -10,6 +10,7 @@ WORKDIR /app
 
 # Copia el archivo JAR generado en el directorio actual a la carpeta del contenedor
 COPY target/CasoPractico2-0.0.1-SNAPSHOT.jar app.jar
+COPY src/main/resources/biological_data.csv /app/biological_data.csv
 
 # Expone el puerto en el que correrá la aplicación Spring Boot
 EXPOSE 8080
