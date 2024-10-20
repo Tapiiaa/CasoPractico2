@@ -29,45 +29,44 @@ Java 11+
 Maven
 Spring Boot
 Instrucciones de Ejecución
+
 **Paso 1: Clonar el repositorio**
 bash
 Copiar código
 git clone https://github.com/tu-proyecto/casopractico2.git
+
 **Paso 2: Construir el proyecto**
 Ejecuta el siguiente comando dentro del directorio del proyecto para construir el backend:
-```
 bash
 Copiar código
 mvn clean install
-```
+
 **Paso 3: Iniciar la aplicación**
 Para iniciar la aplicación de Spring Boot, ejecuta:
-```
 bash
 Copiar código
 mvn spring-boot:run
 La aplicación estará disponible en http://localhost:8080.
-```
+
 
 **Paso 4: Ejecutar los hilos para procesar los datos biológicos**
 Para iniciar el procesamiento del archivo biological_data.csv utilizando hilos, abre un navegador web e ingresa la siguiente URL:
-```
+
 bash
 Copiar código
 http://localhost:8080/process-biological-data?filePath=biological_data.csv&continue
-```
+
 Credenciales de acceso:
-```
-Usuario: admin
-Contraseña: admin
-```
+*Usuario: admin*
+*Contraseña: admin*
+
 Esto iniciará el procesamiento de los datos por parte de los hilos, que distribuirán las tareas para procesar cada fila del archivo CSV.
 
 **Paso 5: Visualizar los resultados**
 Puedes visualizar los resultados del procesamiento (tabla y gráfico de rendimiento en tiempo real) accediendo a la interfaz web en:
-```
+
 bash
 Copiar código
 http://localhost:8080/index.html
-```
+
 Esta página muestra la tabla con el número de eventos procesados por tipo de dato y un gráfico en tiempo real que ilustra el rendimiento del sistema mientras los hilos procesan los datos.
